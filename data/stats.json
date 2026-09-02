@@ -1,0 +1,30 @@
+{
+  "totalKeys": 6422,
+  "totalDistinctEnglishStrings": 4515,
+  "stringsUsedMoreThanOnce": 814,
+  "stringsWithInconsistency": 559,
+  "inconsistencyByLocale": {
+    "fr-FR": 204,
+    "bg-BG": 200,
+    "es-ES": 197,
+    "lv-LV": 187,
+    "nl-NL": 180,
+    "it-IT": 172,
+    "de-DE": 165,
+    "sk-SK": 161,
+    "hr-HR": 152,
+    "cs-CZ": 145,
+    "et-EE": 137,
+    "pt-PT": 132,
+    "ro-RO": 132,
+    "da-DK": 131,
+    "lt-LT": 128,
+    "sl-SI": 128,
+    "fi-FI": 117,
+    "el-GR": 110,
+    "sv-SE": 109,
+    "nb-NO": 107,
+    "hu-HU": 101,
+    "pl-PL": 95
+  }
+}

@@ -1,0 +1,4076 @@
+[
+  {
+    "en": "Something went wrong",
+    "locale": "it-IT",
+    "count": 17,
+    "variants": [
+      {
+        "text": "Qualcosa è andato storto.",
+        "keys": [
+          "PageActivity.TitleModifyFailedDialog",
+          "PageOnfido.FailedTitle",
+          "PageOnfido.RejectedTitle",
+          "PageSendMoneyFailed.TitleVoltExpiredError",
+          "PageSendMoneyFailed.TitleVoltFailedError",
+          "PlaidProductNotSupportedError.SomethingWentWrongTitle",
+          "VerificationOutcomeModal.PaymentNoAlternativeMethods.Title",
+          "VerificationOutcomeModal.Rejected.Title",
+          "ComponentXeError.title",
+          "RegisterError.title",
+          "errorPage.title",
+          "TransactionsPage.Table.Error.Title",
+          "QuoteConfirmation.Error.Title",
+          "PaymentsView.Table.Error.Title",
+          "CardManagement.ErrorLoadingCards",
+          "ScheduledTransferDetails.ErrorTitle"
+        ]
+      },
+      {
+        "text": "Qualcosa è andato storto",
+        "keys": [
+          "CardIssuance.SomethingWrong.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Something went wrong",
+    "locale": "nb-NO",
+    "count": 17,
+    "variants": [
+      {
+        "text": "Noe gikk galt!",
+        "keys": [
+          "PageActivity.TitleModifyFailedDialog",
+          "PageOnfido.FailedTitle",
+          "PageOnfido.RejectedTitle",
+          "PageSendMoneyFailed.TitleVoltExpiredError",
+          "PageSendMoneyFailed.TitleVoltFailedError",
+          "PlaidProductNotSupportedError.SomethingWentWrongTitle",
+          "VerificationOutcomeModal.PaymentNoAlternativeMethods.Title",
+          "VerificationOutcomeModal.Rejected.Title",
+          "ComponentXeError.title",
+          "RegisterError.title",
+          "errorPage.title",
+          "TransactionsPage.Table.Error.Title",
+          "QuoteConfirmation.Error.Title",
+          "PaymentsView.Table.Error.Title",
+          "CardManagement.ErrorLoadingCards",
+          "ScheduledTransferDetails.ErrorTitle"
+        ]
+      },
+      {
+        "text": "Noe gikk galt",
+        "keys": [
+          "CardIssuance.SomethingWrong.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Address",
+    "locale": "es-ES",
+    "count": 15,
+    "variants": [
+      {
+        "text": "Dirección",
+        "keys": [
+          "BillingAddressModal.AddressLabel",
+          "ComponentEditAddressModal.LabelAddress",
+          "ComponentProfileModal.AddressText",
+          "ComponentXeTransferDetails.BankDetailsAddress",
+          "PageAccount.PersonalInfoSectionAddressLabel",
+          "PageRegisterInfo.LabelAddress",
+          "SendMoneyAdditionalDetailsFormFieldParser.addressLine1",
+          "PersonalAddress.DefaultAddressFormat.AddressLine1Label",
+          "ComponentKYCRefreshAddress.USCorporateAddress.AddressLine1Label",
+          "ComponentKYCRefreshAddress.UKCorporateAddress.AddressLine1Label",
+          "ComponentKYCRefreshAddress.EUCorporateAddress.AddressLine1Label",
+          "CardIssuance.AddCard.AddressLabel",
+          "QuoteAddressForm.AddressLine1Label",
+          "RecipientAddressPage.Address"
+        ]
+      },
+      {
+        "text": "DIRECCIÓN",
+        "keys": [
+          "CardIssuance.DeliveryScreen.BoxLabel"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Do this later",
+    "locale": "el-GR",
+    "count": 15,
+    "variants": [
+      {
+        "text": "Κάντε το αργότερα.",
+        "keys": [
+          "PageOnfido.ButtonFailedLater"
+        ]
+      },
+      {
+        "text": "Κάντε το αργότερα",
+        "keys": [
+          "PageSendMoneyAdditionalDetails.DoThisLaterButtonText",
+          "SendMoneyAdditionalDetails.DoThisLaterButtonText",
+          "VerificationOutcomeModal.ResubDocumentBackMissing.SecondaryButton",
+          "VerificationOutcomeModal.ResubDocumentBackNotFullyInFrame.SecondaryButton",
+          "VerificationOutcomeModal.ResubDocumentFrontMissing.SecondaryButton",
+          "VerificationOutcomeModal.ResubDocumentFrontNotFullyInFrame.SecondaryButton",
+          "VerificationOutcomeModal.ResubFaceNotDetected.SecondaryButton",
+          "VerificationOutcomeModal.ResubIDDamaged.SecondaryButton",
+          "VerificationOutcomeModal.ResubIDExpired.SecondaryButton",
+          "VerificationOutcomeModal.ResubMissingInformation.SecondaryButton",
+          "VerificationOutcomeModal.ResubPoorIDQuality.SecondaryButton",
+          "VerificationOutcomeModal.ResubPoorQuality.SecondaryButton",
+          "VerificationOutcomeModal.ResubUnknownError.SecondaryButton",
+          "VerificationOutcomeModal.ResubUnsupportedType.SecondaryButton"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Send money",
+    "locale": "pt-PT",
+    "count": 14,
+    "variants": [
+      {
+        "text": "Enviar Dinheiro",
+        "keys": [
+          "ComponentXeSidebar.ButtonSendMoney",
+          "PageActivity.ButtonSendMoney",
+          "PageActivity.AllActivity.ButtonSendMoney",
+          "PageSendMoney.StepAmountPageTitle",
+          "QuickTransfer.SendMoney",
+          "Charts.SendMoney",
+          "HomeAuthHero.SendMoney",
+          "HomeBalanceCards.SendMoney",
+          "HomeCalculator.ButtonSendMoney",
+          "HomeQuickAccess.SendMoney",
+          "HomeSendMore.ButtonSendMoney",
+          "HomeSendMoneyHero.Button"
+        ]
+      },
+      {
+        "text": "Enviar dinheiro",
+        "keys": [
+          "SendMoneyAuthIntro.Step3",
+          "SendMoneyAuthIntro.StepSend"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Email",
+    "locale": "fr-FR",
+    "count": 13,
+    "variants": [
+      {
+        "text": "Email",
+        "keys": [
+          "ComponentAccountSettingsNotificationsModal.NotificationsToggleEmail",
+          "ComponentProfileModal.EmailText",
+          "EditEmailModal.EmailLabel",
+          "PageAccount.AccountSectionEmailLabel",
+          "PageAccount.NotificationsSectionMarketNewsOffers",
+          "PageContactForm.LabelEmail",
+          "PageRegisterInfo.LabelEmail"
+        ]
+      },
+      {
+        "text": "E-mail",
+        "keys": [
+          "signupPage.email.label",
+          "ComponentKYCRefreshCorporateUBOForm.Email",
+          "UserRolesPage.Table.Header.Email",
+          "UsersAndRoles.Table.Header.Email",
+          "AddUserDialogForm.Email.Label",
+          "PageAppSettingsNotifications.MarketingEmail"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Visit Help Centre",
+    "locale": "bg-BG",
+    "count": 13,
+    "variants": [
+      {
+        "text": "Посетете Помощния център",
+        "keys": [
+          "AccountRestrictedModal.HelpCentreButton"
+        ]
+      },
+      {
+        "text": "Посетете помощния център",
+        "keys": [
+          "ComponentModifyRecipientModal.ButtonVisitHelpCenter",
+          "PageActivity.DetailsButtonContactUs",
+          "PageActivity.ModifyFailedButtonHelp",
+          "PageOnfido.ButtonRejectedHelp",
+          "PageSendMoneyFailed.VisitHelpCentre",
+          "UnableToSetProvider.HelpCentreButton",
+          "ComponentSubmit.Help",
+          "ComponentXeError.helpCentreLinkText",
+          "closedPage.help",
+          "lockedPage.help",
+          "PageMarketOrderFailed.VisitHelpCentre",
+          "PageMarketOrderSuccess.VisitHelpCentre"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Status",
+    "locale": "da-DK",
+    "count": 8,
+    "variants": [
+      {
+        "text": "status",
+        "keys": [
+          "PageActivity.Status",
+          "PageActivity.AllActivity.Status",
+          "TransactionsPage.Table.Header.Status",
+          "PaymentsView.Table.Header.Status",
+          "PageActivityNew.ColumnStatus",
+          "PageTransactionsNew.Table.ColumnStatus",
+          "PageMarketOrdersNew.Table.ColumnStatus"
+        ]
+      },
+      {
+        "text": "Status",
+        "keys": [
+          "RPAPage.RPATable.ColumnStatus"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Status",
+    "locale": "nb-NO",
+    "count": 8,
+    "variants": [
+      {
+        "text": "status",
+        "keys": [
+          "PageActivity.Status",
+          "PageActivity.AllActivity.Status",
+          "TransactionsPage.Table.Header.Status",
+          "PaymentsView.Table.Header.Status",
+          "PageActivityNew.ColumnStatus",
+          "PageTransactionsNew.Table.ColumnStatus",
+          "PageMarketOrdersNew.Table.ColumnStatus"
+        ]
+      },
+      {
+        "text": "Status",
+        "keys": [
+          "RPAPage.RPATable.ColumnStatus"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Coupon code cannot be used for this transfer",
+    "locale": "ro-RO",
+    "count": 7,
+    "variants": [
+      {
+        "text": "Codul cuponului nu se poate utiliza pentru acest transfer",
+        "keys": [
+          "Promo.ErrorCode.PRAPI_061"
+        ]
+      },
+      {
+        "text": "Codul cuponului nu se poate utiliza pentru acest transfer.",
+        "keys": [
+          "Promo.ErrorCode.PRAPI_004",
+          "Promo.ErrorCode.PRAPI_007",
+          "Promo.ErrorCode.PRAPI_008",
+          "Promo.ErrorCode.PRAPI_051",
+          "Promo.ErrorCode.PRAPI_055",
+          "Promo.ErrorCode.PRAPI_056"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Express bank transfer",
+    "locale": "da-DK",
+    "count": 6,
+    "variants": [
+      {
+        "text": "Ekspres-bankoverførsel",
+        "keys": [
+          "ComponentXeTransferDetails.PaymentMethodOpenBanking",
+          "PageSendMoneyAmount.VoltOpenBankingDropdownText",
+          "SendMoneySummary.VoltPaymentTextSummary",
+          "SendMoneyAmount.OpenBankingTitle",
+          "PaymentMethodText.OpenBanking"
+        ]
+      },
+      {
+        "text": "ekspres-bankoverførsel",
+        "keys": [
+          "SendMoneyVoltPaymentCancelled.VoltDescription"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Express bank transfer",
+    "locale": "es-ES",
+    "count": 6,
+    "variants": [
+      {
+        "text": "Transferencia bancaria exprés",
+        "keys": [
+          "ComponentXeTransferDetails.PaymentMethodOpenBanking",
+          "PageSendMoneyAmount.VoltOpenBankingDropdownText",
+          "SendMoneySummary.VoltPaymentTextSummary",
+          "SendMoneyAmount.OpenBankingTitle",
+          "PaymentMethodText.OpenBanking"
+        ]
+      },
+      {
+        "text": "transferencia bancaria exprés",
+        "keys": [
+          "SendMoneyVoltPaymentCancelled.VoltDescription"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Express bank transfer",
+    "locale": "sv-SE",
+    "count": 6,
+    "variants": [
+      {
+        "text": "Expressbanköverföring",
+        "keys": [
+          "ComponentXeTransferDetails.PaymentMethodOpenBanking",
+          "PageSendMoneyAmount.VoltOpenBankingDropdownText",
+          "SendMoneySummary.VoltPaymentTextSummary",
+          "SendMoneyAmount.OpenBankingTitle",
+          "PaymentMethodText.OpenBanking"
+        ]
+      },
+      {
+        "text": "expressbanköverföring",
+        "keys": [
+          "SendMoneyVoltPaymentCancelled.VoltDescription"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Log in",
+    "locale": "sv-SE",
+    "count": 6,
+    "variants": [
+      {
+        "text": "Logga in.",
+        "keys": [
+          "PageRegisterCountry.LinkLogin",
+          "PageRegisterPhone.ModalButtonLogin",
+          "component.XeEmailExists.ctaText"
+        ]
+      },
+      {
+        "text": "Logga in",
+        "keys": [
+          "component.button.loginText",
+          "component.link.login",
+          "signinPage.title"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "No results found",
+    "locale": "cs-CZ",
+    "count": 6,
+    "variants": [
+      {
+        "text": "Nebyly nalezeny žádné výsledky",
+        "keys": [
+          "PageActivity.AllActivity.NoResultsHeading",
+          "SendMoneyReasonforTransfer.NoResults",
+          "AddressSearch.noResult",
+          "PageSendMoneyXeTag.NoResultsFound",
+          "CommonFields.NoResults"
+        ]
+      },
+      {
+        "text": "Nebyly nalezeny žádné výsledky.",
+        "keys": [
+          "XeAddressSearch.NoResultFoundText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Last name(s)",
+    "locale": "es-ES",
+    "count": 5,
+    "variants": [
+      {
+        "text": "Apellidos",
+        "keys": [
+          "ComponentModifyCashRecipientModal.LastNamelabel",
+          "EditNameModal.LastNamesLabel"
+        ]
+      },
+      {
+        "text": "Apellido(s)",
+        "keys": [
+          "UseFieldRules.LastNameLabel",
+          "RecipientField.lastnames.label",
+          "RecipientField.last_name.label"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Privacy Policy",
+    "locale": "el-GR",
+    "count": 5,
+    "variants": [
+      {
+        "text": "Πολιτική Απορρήτου",
+        "keys": [
+          "ComponentCountryOfResidence.TextTermsAndConditionsSecondPart",
+          "component.XeRecaptcha.privacyPolicyLinkText",
+          "CookieConsent.PrivacyPolicy",
+          "PageMarketOrderConfirmation.PrivacyPolicy"
+        ]
+      },
+      {
+        "text": "Πολιτική απορρήτου",
+        "keys": [
+          "createAccountPage.xeraPrivacyPolicyLinkText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Privacy Policy",
+    "locale": "it-IT",
+    "count": 5,
+    "variants": [
+      {
+        "text": "Informativa sulla privacy",
+        "keys": [
+          "ComponentCountryOfResidence.TextTermsAndConditionsSecondPart",
+          "component.XeRecaptcha.privacyPolicyLinkText",
+          "CookieConsent.PrivacyPolicy",
+          "PageMarketOrderConfirmation.PrivacyPolicy"
+        ]
+      },
+      {
+        "text": "Informativa sulla Privacy",
+        "keys": [
+          "createAccountPage.xeraPrivacyPolicyLinkText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Privacy Policy",
+    "locale": "es-ES",
+    "count": 5,
+    "variants": [
+      {
+        "text": "Política de privacidad",
+        "keys": [
+          "ComponentCountryOfResidence.TextTermsAndConditionsSecondPart",
+          "component.XeRecaptcha.privacyPolicyLinkText",
+          "CookieConsent.PrivacyPolicy",
+          "PageMarketOrderConfirmation.PrivacyPolicy"
+        ]
+      },
+      {
+        "text": "Política de Privacidad",
+        "keys": [
+          "createAccountPage.xeraPrivacyPolicyLinkText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Something went wrong!",
+    "locale": "fr-FR",
+    "count": 5,
+    "variants": [
+      {
+        "text": "Une erreur s'est produite",
+        "keys": [
+          "ComponentSendMoneyShareTransferModal.ErrorText"
+        ]
+      },
+      {
+        "text": "Une erreur s’est produite",
+        "keys": [
+          "PageActivity.ErrorText",
+          "PageSendMoneyFailed.Title",
+          "PageSendMoneyFinished.ErrorText",
+          "UploadDocumentModal.UploadFaildTitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Visit Help Center",
+    "locale": "bg-BG",
+    "count": 5,
+    "variants": [
+      {
+        "text": "Посетете Помощния център",
+        "keys": [
+          "AccountRestricted.VisitHelpCenterButtonText"
+        ]
+      },
+      {
+        "text": "Посетете помощния център",
+        "keys": [
+          "BankPaymentNotVerifiedCorp.VisitHelpCenterButton",
+          "VerificationOutcomeModal.PaymentNoAlternativeMethods.SecondaryButton",
+          "VerificationOutcomeModal.Rejected.SecondaryButton",
+          "VerificationOutcomeModal.Closed.SecondaryButton"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Visit Help Center",
+    "locale": "fr-FR",
+    "count": 5,
+    "variants": [
+      {
+        "text": "Visiter le centre d'aide",
+        "keys": [
+          "AccountRestricted.VisitHelpCenterButtonText"
+        ]
+      },
+      {
+        "text": "Visiter le centre d’aide",
+        "keys": [
+          "BankPaymentNotVerifiedCorp.VisitHelpCenterButton",
+          "VerificationOutcomeModal.PaymentNoAlternativeMethods.SecondaryButton",
+          "VerificationOutcomeModal.Rejected.SecondaryButton",
+          "VerificationOutcomeModal.Closed.SecondaryButton"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Visit Help Center",
+    "locale": "sl-SI",
+    "count": 5,
+    "variants": [
+      {
+        "text": "Obiščite center za pomoč",
+        "keys": [
+          "AccountRestricted.VisitHelpCenterButtonText",
+          "BankPaymentNotVerifiedCorp.VisitHelpCenterButton"
+        ]
+      },
+      {
+        "text": "Obiščite Center za pomoč",
+        "keys": [
+          "VerificationOutcomeModal.PaymentNoAlternativeMethods.SecondaryButton",
+          "VerificationOutcomeModal.Rejected.SecondaryButton",
+          "VerificationOutcomeModal.Closed.SecondaryButton"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Direct debit",
+    "locale": "fr-FR",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Prélèvement automatique",
+        "keys": [
+          "ComponentAddPaymentMethodModal.DirectDebitText",
+          "PageActivity.PaymentMethodDirectDebit",
+          "PaymentMethodText.DirectDebit"
+        ]
+      },
+      {
+        "text": "prélèvement automatique",
+        "keys": [
+          "PaymentMethodChanged.DirectDebit"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Enter your password",
+    "locale": "fr-FR",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Saisissez votre mot de passe.",
+        "keys": [
+          "signinPage.password.placeholder",
+          "signinPage.password.validation.required",
+          "BiometricPasswordPrompt.PasswordPlaceholder"
+        ]
+      },
+      {
+        "text": "Saisissez votre mot de passe",
+        "keys": [
+          "SessionReauth.PasswordPlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Expires on",
+    "locale": "et-EE",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Aegub:",
+        "keys": [
+          "ComponentAddPaymentCardModal.ExpiresOn"
+        ]
+      },
+      {
+        "text": "Aegub",
+        "keys": [
+          "ComponentPaymentMethod.TextExpires",
+          "ComponentPaymentMethod.TextExpiresOn",
+          "CardsDropdownOption.ExpiresOn"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Expiry date",
+    "locale": "hu-HU",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Lejárat dátuma:",
+        "keys": [
+          "ComponentAddPaymentCardModal.LabelExpirationDate"
+        ]
+      },
+      {
+        "text": "Lejárat dátuma",
+        "keys": [
+          "ComponentAddPaymentCardModal.ExpirationDateLabel",
+          "AddPaymentCardModel.LabelExpirationDate",
+          "CardDetails.ExpiryDate"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Ok",
+    "locale": "et-EE",
+    "count": 4,
+    "variants": [
+      {
+        "text": "OK",
+        "keys": [
+          "ComponentOTPResendErrorDialog.ButtonOk"
+        ]
+      },
+      {
+        "text": "Ok",
+        "keys": [
+          "PageAccountSettings.ButtonOk",
+          "PageForgotPasswordNewPassword.ButtonOk",
+          "UpdateDocumentModal.ErrorDialog.CloseDialog"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Oops, something went wrong",
+    "locale": "cs-CZ",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Jejda! Něco se pokazilo.",
+        "keys": [
+          "EditPersonalInfoModal.ErrorOccuredOnSaving",
+          "UseMobieWalletsWarning.SomethingWentWrong.Title",
+          "SomethingWentWrong.Title"
+        ]
+      },
+      {
+        "text": "Jejda, něco se pokazilo",
+        "keys": [
+          "SomethingWentWrong.Title "
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Oops, something went wrong",
+    "locale": "da-DK",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Ups! Noget gik galt",
+        "keys": [
+          "EditPersonalInfoModal.ErrorOccuredOnSaving",
+          "UseMobieWalletsWarning.SomethingWentWrong.Title",
+          "SomethingWentWrong.Title"
+        ]
+      },
+      {
+        "text": "Ups, noget gik galt",
+        "keys": [
+          "SomethingWentWrong.Title "
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Please enter a valid phone number",
+    "locale": "cs-CZ",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Zadejte prosím platné telefonní číslo.",
+        "keys": [
+          "ComponentEditPhoneModal.ValidationPhoneValid",
+          "RegisterPersonalInfo.ValidationPhoneValid",
+          "twoFactorAuth.changeNumber.phoneValidation"
+        ]
+      },
+      {
+        "text": "Zadejte prosím platné telefonní číslo",
+        "keys": [
+          "EditPhoneModal.ValidationPhoneRequired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Please enter a valid phone number",
+    "locale": "de-DE",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Bitte geben Sie eine gültige Telefonnummer ein",
+        "keys": [
+          "ComponentEditPhoneModal.ValidationPhoneValid",
+          "EditPhoneModal.ValidationPhoneRequired",
+          "RegisterPersonalInfo.ValidationPhoneValid"
+        ]
+      },
+      {
+        "text": "Bitte geben Sie eine gültige Telefonnummer ein.",
+        "keys": [
+          "twoFactorAuth.changeNumber.phoneValidation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Rate Alerts",
+    "locale": "de-DE",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Kurs-Benachrichtigungen",
+        "keys": [
+          "ComponentXeBottombar.ButtonRateAlerts",
+          "ComponentXeSidebar.RateAlerts"
+        ]
+      },
+      {
+        "text": "Kursbenachrichtigungen",
+        "keys": [
+          "RateAlertsCard.Title",
+          "Charts.RateAlerts"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Resend code",
+    "locale": "fr-FR",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Renvoyer le code",
+        "keys": [
+          "ComponentOTPHelpDialog.ButtonResend",
+          "EditEmailModal.ResendCode",
+          "twoFactorAuth.verifyNumber.resend"
+        ]
+      },
+      {
+        "text": "Renvoyer le code.",
+        "keys": [
+          "PageEmailVerification.ResendCode"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Something went wrong, please try again later",
+    "locale": "fi-FI",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Jokin meni pieleen. Yritä myöhemmin uudelleen.",
+        "keys": [
+          "error.tryAgain",
+          "ScheduledPayments.NonTradingDatesError",
+          "Forwards.NonTradingDatesError"
+        ]
+      },
+      {
+        "text": "Jokin meni pieleen. Yritä myöhemmin uudelleen",
+        "keys": [
+          "PageEmailVerification.Limit"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Something went wrong, please try again later",
+    "locale": "el-GR",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Κάτι πήγε λάθος. Ξαναπροσπαθήστε αργότερα.",
+        "keys": [
+          "error.tryAgain"
+        ]
+      },
+      {
+        "text": "Κάτι πήγε λάθος. Ξαναπροσπαθήστε αργότερα",
+        "keys": [
+          "PageEmailVerification.Limit",
+          "ScheduledPayments.NonTradingDatesError",
+          "Forwards.NonTradingDatesError"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Visit help center",
+    "locale": "hr-HR",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Posjetite Centar za pomoć",
+        "keys": [
+          "VerificationOutcomeModal.Closed.HelpCenterButton",
+          "ConfigErrorModal.HelpCentreButton",
+          "QuoteConfirmation.Error.VisitHelpCenter"
+        ]
+      },
+      {
+        "text": "Posjetite centar za pomoć",
+        "keys": [
+          "CardManagement.AccountRestrictedModal.VisitHelpCenter"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Visit help center",
+    "locale": "cs-CZ",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Navštivte Centrum nápovědy",
+        "keys": [
+          "VerificationOutcomeModal.Closed.HelpCenterButton",
+          "ConfigErrorModal.HelpCentreButton",
+          "QuoteConfirmation.Error.VisitHelpCenter"
+        ]
+      },
+      {
+        "text": "Navštivte centrum nápovědy",
+        "keys": [
+          "CardManagement.AccountRestrictedModal.VisitHelpCenter"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Visit help center",
+    "locale": "el-GR",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Επισκεφθείτε το Κέντρο βοήθειας",
+        "keys": [
+          "VerificationOutcomeModal.Closed.HelpCenterButton",
+          "ConfigErrorModal.HelpCentreButton",
+          "QuoteConfirmation.Error.VisitHelpCenter"
+        ]
+      },
+      {
+        "text": "Επισκεφθείτε το κέντρο βοήθειας",
+        "keys": [
+          "CardManagement.AccountRestrictedModal.VisitHelpCenter"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Visit help center",
+    "locale": "it-IT",
+    "count": 4,
+    "variants": [
+      {
+        "text": "Visita il Centro assistenza",
+        "keys": [
+          "VerificationOutcomeModal.Closed.HelpCenterButton",
+          "ConfigErrorModal.HelpCentreButton",
+          "QuoteConfirmation.Error.VisitHelpCenter"
+        ]
+      },
+      {
+        "text": "Visita il centro assistenza",
+        "keys": [
+          "CardManagement.AccountRestrictedModal.VisitHelpCenter"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Apt/Unit/Suite",
+    "locale": "da-DK",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Lejlighed/Enhed/Suite",
+        "keys": [
+          "CardIssuance.AddCard.UnitLabel",
+          "RecipientAddressPage.AptLabel"
+        ]
+      },
+      {
+        "text": "Lejlighed/enhed/suite",
+        "keys": [
+          "QuoteAddressForm.AddressLine2Label"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "hr-HR",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Kartica je istekla:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Kartica je istekla",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "cs-CZ",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Platnost karty vypršela:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Platnost karty vypršela",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "da-DK",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Kortet er udløbet:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Kortet er udløbet",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "nl-NL",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Kaart verlopen:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Kaart verlopen",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "et-EE",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Kaart on aegunud:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Kaart on aegunud",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "fi-FI",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Kortin voimassaolo päättynyt:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Kortin voimassaolo päättynyt",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "fr-FR",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Carte expirée :",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Carte expirée",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "el-GR",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Η κάρτα έληξε:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Η κάρτα έληξε",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "hu-HU",
+    "count": 3,
+    "variants": [
+      {
+        "text": "A kártya lejárt:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "A kártya lejárt",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "it-IT",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Carta scaduta:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Carta scaduta",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "lv-LV",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Kartes derīguma termiņš ir beidzies:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Kartes derīguma termiņš ir beidzies",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "nb-NO",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Kortet er utløpt:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Kortet er utløpt",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "pl-PL",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Karta wygasła:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Karta wygasła",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "pt-PT",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Cartão expirado:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Cartão expirado",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "ro-RO",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Cardul a expirat:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Cardul a expirat",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "sk-SK",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Platnosť karty vypršala:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Platnosť karty vypršala",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card expired",
+    "locale": "sv-SE",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Kortet har gått ut:",
+        "keys": [
+          "ComponentPaymentMethod.ExpiredOnText"
+        ]
+      },
+      {
+        "text": "Kortet har gått ut",
+        "keys": [
+          "ComponentPaymentMethod.CardExpiredText",
+          "CardManagement.CardOverlay.Expired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Copied to clipboard!",
+    "locale": "it-IT",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Copiato negli appunti!",
+        "keys": [
+          "ComponentSendMoneyShareTransferModal.CopyText"
+        ]
+      },
+      {
+        "text": "Copiato negli appunti.",
+        "keys": [
+          "PageActivity.CopyText",
+          "PageSendMoneyFinished.CopyText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Easier and faster transfers",
+    "locale": "sk-SK",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Jednoduchšie a rýchlejšie prevody",
+        "keys": [
+          "ComponentAddRecipientDeliveryTypeModal.ButtonXeAccountDescription",
+          "ComponentXeTransferDetails.DeliveryMethodPeerToPeerSubText"
+        ]
+      },
+      {
+        "text": "Jednoduchšie a rýchlejšie prevody",
+        "keys": [
+          "ComponentRecipientDelivery.XeAccountDescription"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Edit address",
+    "locale": "fr-FR",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Modifier l'adresse",
+        "keys": [
+          "ComponentEditAddressModal.Title"
+        ]
+      },
+      {
+        "text": "Modifier l’adresse",
+        "keys": [
+          "ComponentEditAddressModal.TitleModal",
+          "EditAddressModal.Title"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "eg 123",
+    "locale": "lt-LT",
+    "count": 3,
+    "variants": [
+      {
+        "text": "pvz. 123",
+        "keys": [
+          "ComponentRecipientAddressModal.USAddressFormat.StreetNumberPlaceholder"
+        ]
+      },
+      {
+        "text": "pvz., 123",
+        "keys": [
+          "PersonalAddress.USAddressFormat.StreetNumberPlaceholder",
+          "RegisterPersonalIdentity.licenceVersionPlaceholderTextNZ"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Enter your number",
+    "locale": "bg-BG",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Въведете вашия номер",
+        "keys": [
+          "RegisterPersonalInfo.phoneNumberInputPlaceholderText",
+          "RegisterPersonalInfo.phoneNumberPlaceholderText"
+        ]
+      },
+      {
+        "text": "Въведете Вашия номер",
+        "keys": [
+          "twoFactorAuth.changeNumber.phonePlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Make sure to check your spam folder and the spelling of your email address",
+    "locale": "et-EE",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Kontrollige oma rämpsposti kausta ja e-posti aadressi õigekirja.",
+        "keys": [
+          "EditEmailModal.CheckSpamFolder"
+        ]
+      },
+      {
+        "text": "Kontrollige oma rämpsposti kausta ja e-posti aadressi õigekirja",
+        "keys": [
+          "PageEmailVerification.SubText",
+          "twoFactorAuth.changeNumber.spam"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Make sure to check your spam folder and the spelling of your email address",
+    "locale": "el-GR",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Βεβαιωθείτε ότι έχετε ελέγξει τον φάκελο ανεπιθύμητης αλληλογραφίας και την ορθογραφία της διεύθυνσης email σας.",
+        "keys": [
+          "EditEmailModal.CheckSpamFolder"
+        ]
+      },
+      {
+        "text": "Βεβαιωθείτε ότι έχετε ελέγξει τον φάκελο ανεπιθύμητης αλληλογραφίας και την ορθογραφία της διεύθυνσης email σας",
+        "keys": [
+          "PageEmailVerification.SubText",
+          "twoFactorAuth.changeNumber.spam"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "New transactions are not available while your account is being reviewed",
+    "locale": "da-DK",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Nye transaktioner er ikke tilgængelige, mens din konto gennemgås.",
+        "keys": [
+          "AccountRestricted.TransactionsAreNotAvailableParagraph",
+          "AccountRestrictedModal.Text"
+        ]
+      },
+      {
+        "text": "Nye transaktioner er ikke tilgængelige, mens din konto gennemgås",
+        "keys": [
+          "VerificationOutcomeModal.Closed.Text"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "New transactions are not available while your account is being reviewed",
+    "locale": "el-GR",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Οι νέες συναλλαγές δεν είναι διαθέσιμες ενόσω ο λογαριασμός σας βρίσκεται υπό έλεγχο.",
+        "keys": [
+          "AccountRestricted.TransactionsAreNotAvailableParagraph",
+          "VerificationOutcomeModal.Closed.Text"
+        ]
+      },
+      {
+        "text": "Οι νέες συναλλαγές δεν είναι διαθέσιμες ενόσω ο λογαριασμός σας βρίσκεται υπό έλεγχο",
+        "keys": [
+          "AccountRestrictedModal.Text"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Only numerical characters are allowed",
+    "locale": "cs-CZ",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Jsou povoleny pouze číselné znaky.",
+        "keys": [
+          "ComponentEditPhoneModal.ValidationPhoneNumerical"
+        ]
+      },
+      {
+        "text": "Jsou povoleny pouze číselné znaky",
+        "keys": [
+          "PageOTP.ValidationCode",
+          "PageRegisterPhone.ValidationPhoneNumerical"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Payment methods",
+    "locale": "nl-NL",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Betaalmethoden:",
+        "keys": [
+          "ComponentXeSidebar.Balances.PaymentMethods",
+          "PaymentsPage.PaymentMethods"
+        ]
+      },
+      {
+        "text": "Betaalmethoden",
+        "keys": [
+          "PageAccountPaymentMethods.Title"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Payment Methods",
+    "locale": "cs-CZ",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Způsoby platby.",
+        "keys": [
+          "AccountPaymentMethods.PaymentMethodsTitle"
+        ]
+      },
+      {
+        "text": "Způsoby platby",
+        "keys": [
+          "ComponentXeSidebar.ButtonPayment",
+          "PageDashboard.PaymentMethod"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Please enter a valid name",
+    "locale": "el-GR",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Εισαγάγετε ένα έγκυρο όνομα.",
+        "keys": [
+          "ComponentModifyRecipientModal.DialogFullNameInfo.ValidationTextSpecialCharacters"
+        ]
+      },
+      {
+        "text": "Εισαγάγετε ένα έγκυρο όνομα",
+        "keys": [
+          "EditNameModal.EnterValidNameError",
+          "signupPage.name.validation.invalid"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Unable to send money",
+    "locale": "fr-FR",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Impossible d'envoyer de l'argent",
+        "keys": [
+          "AccountRestricted.UnableToSendMoneyTitle"
+        ]
+      },
+      {
+        "text": "Impossible d’envoyer de l’argent",
+        "keys": [
+          "AccountRestrictedModal.Title",
+          "VerificationOutcomeModal.Closed.Title"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:amount] [%1$s:currency] available",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:amount] [%1$s:currency] disponibles",
+        "keys": [
+          "PageSendMoneyAmount.BalanceSubTextWithAmount"
+        ]
+      },
+      {
+        "text": "[%1$s:amount] [%1$s:currency] disponible(s)",
+        "keys": [
+          "PaymentMethodOption.AvailableBalance"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:count] transaction(s) require your attention",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:count] transaction(s) nécessitent votre attention",
+        "keys": [
+          "TransactionsPage.Warning.Title"
+        ]
+      },
+      {
+        "text": "[%1$s:count] transactions nécessitent votre attention",
+        "keys": [
+          "TransactionsPage.ActionRequiredWarning.Title"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:count] transaction(s) require your attention",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:count] Transaktion(en) erfordern Ihre Aufmerksamkeit",
+        "keys": [
+          "TransactionsPage.Warning.Title"
+        ]
+      },
+      {
+        "text": "[%1$s:count] transaktion(en) erfordern Ihre Aufmerksamkeit",
+        "keys": [
+          "TransactionsPage.ActionRequiredWarning.Title"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:count] transaction(s) require your attention",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:count] transacción(es) requieren tu atención",
+        "keys": [
+          "TransactionsPage.Warning.Title"
+        ]
+      },
+      {
+        "text": "[%1$s:count] transacción(es) requiere(n) tu atención",
+        "keys": [
+          "TransactionsPage.ActionRequiredWarning.Title"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "A one step way to send money",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Jak poslat peníze v jediném kroku",
+        "keys": [
+          "QuickTransfer.SendMoneySubtitle"
+        ]
+      },
+      {
+        "text": "Jak poslat peníze v jediném kroku",
+        "keys": [
+          "TransactionFlowsDropdown.QuickTransferOption.Description"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "All progress will be lost if you leave the registration process now",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Όλη η πρόοδος θα χαθεί εάν αποχωρήσετε από τη διαδικασία εγγραφής τώρα.",
+        "keys": [
+          "CommonComponent.LeaveRegistration.Body"
+        ]
+      },
+      {
+        "text": "Όλη η πρόοδος θα χαθεί εάν αποχωρήσετε από τη διαδικασία εγγραφής τώρα",
+        "keys": [
+          "component.XeLeaveRegistrationModal.modalText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Are you sure you want to upgrade this user to <strong>[%1$s:role]</strong>? Admins can manage users and edit permissions",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Naozaj chcete tohto používateľa povýšiť do roly <strong>[%1$s:role]</strong>? Správcovia môžu spravovať používateľov a upravovať povolenia.",
+        "keys": [
+          "UserRolesActionsDropdown.ConfirmDialog.Caption.ConfirmRoleChange"
+        ]
+      },
+      {
+        "text": "Naozaj chcete tohto používateľa povýšiť do roly <strong>[%1$s:role]</strong>? Správcovia môžu spravovať používateľov a upravovať povolenia",
+        "keys": [
+          "UserRolesActionsDropdown.ConfirmDialog.Caption.ConfirmAdminRole"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Bank account added!",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Conto bancario aggiunto!",
+        "keys": [
+          "ComponentAddPaymentBankModal.Notifications.BankAccountAdded"
+        ]
+      },
+      {
+        "text": "Conto bancario aggiunto.",
+        "keys": [
+          "ComponentMicroDepositModal.AlertAdded"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "bank transfer",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "bankovní převod",
+        "keys": [
+          "ComponentXeBankTransferDetailsModal.BankTransfer"
+        ]
+      },
+      {
+        "text": "Bankovní převod",
+        "keys": [
+          "PageSendMoneyFinished.BankTransfer"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Card delivery will continue to your original address",
+    "locale": "et-EE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Kaardi kohaletoimetamine jätkub teie algsele aadressile",
+        "keys": [
+          "ChangeOfAddress.CardDelivery.CurrentAddressToast"
+        ]
+      },
+      {
+        "text": "Kaardi kohaletoimetamine jätkub teie algsele aadressile.",
+        "keys": [
+          "CardDeliveryAddressChanged.KeepAddressToast"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "PROMIJENITE U",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Promijenite u",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "ZMĚNIT NA",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Změnit na",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "SKIFT TIL",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Skift til",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "et-EE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "MUUDA:",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Muuda",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "fi-FI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "VAIHDA",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Vaihda",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "ÄNDERN ZU",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Ändern zu",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "hu-HU",
+    "count": 2,
+    "variants": [
+      {
+        "text": "VÁLTÁS ERRE",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Váltás erre",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "MODIFICA IN",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Modifica in",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "MAINĪT UZ",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Mainīt uz",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "nb-NO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "BYTT TIL",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Bytt til",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "pl-PL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "ZMIEŃ NA",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Zmień na",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "pt-PT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "ALTERAR PARA",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Alterar para",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "ro-RO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "SCHIMBAȚI ÎN",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Schimbați în",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "ZMENIŤ NA",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Zmeniť na",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "sl-SI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "SPREMENITE NA",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Spremenite na",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "CAMBIAR A",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Cambiar a",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Change to",
+    "locale": "sv-SE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "ÄNDRA TILL",
+        "keys": [
+          "ComponentAddPaymentMethodType.Text"
+        ]
+      },
+      {
+        "text": "Ändra till",
+        "keys": [
+          "ComponentAddPaymentMethodType.AvailablePaymentMethodsText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Click Continue to sign in to Xero with your email address and password and connect your accounts. You’ll return to Xe when the integration is complete.",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Noklikšķiniet uz Turpināt, lai pierakstītos Xero, izmantojot savu e-pasta adresi un paroli, un savienotu savus kontus. Kad integrācija būs pabeigta, jūs atgriezīsieties Xe.",
+        "keys": [
+          "integrations.xero.connectModal.description"
+        ]
+      },
+      {
+        "text": "Noklikšķiniet uz Turpināt, lai pierakstītos Xero, izmantojot savu e-pasta adresi un paroli un savienotu savus kontus. Kad integrācija būs pabeigta, jūs atgriezīsieties Xe.",
+        "keys": [
+          "erpIntegrations.xero.connectModal.description"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Delivery address",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Leveringsadresse:",
+        "keys": [
+          "CardIssuance.Review.DeliveryAddress"
+        ]
+      },
+      {
+        "text": "Leveringsadresse",
+        "keys": [
+          "CardIssuance.DeliveryAddress.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Delivery address",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Bezorgadres:",
+        "keys": [
+          "CardIssuance.Review.DeliveryAddress"
+        ]
+      },
+      {
+        "text": "Bezorgadres",
+        "keys": [
+          "CardIssuance.DeliveryAddress.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Delivery address",
+    "locale": "fi-FI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Toimitusosoite:",
+        "keys": [
+          "CardIssuance.Review.DeliveryAddress"
+        ]
+      },
+      {
+        "text": "Toimitusosoite",
+        "keys": [
+          "CardIssuance.DeliveryAddress.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Delivery address",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Adresse de livraison :",
+        "keys": [
+          "CardIssuance.Review.DeliveryAddress"
+        ]
+      },
+      {
+        "text": "Adresse de livraison",
+        "keys": [
+          "CardIssuance.DeliveryAddress.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Delivery address",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Lieferadresse:",
+        "keys": [
+          "CardIssuance.Review.DeliveryAddress"
+        ]
+      },
+      {
+        "text": "Lieferadresse",
+        "keys": [
+          "CardIssuance.DeliveryAddress.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Delivery address",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Διεύθυνση παράδοσης:",
+        "keys": [
+          "CardIssuance.Review.DeliveryAddress"
+        ]
+      },
+      {
+        "text": "Διεύθυνση παράδοσης",
+        "keys": [
+          "CardIssuance.DeliveryAddress.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Delivery address",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Indirizzo di consegna:",
+        "keys": [
+          "CardIssuance.Review.DeliveryAddress"
+        ]
+      },
+      {
+        "text": "Indirizzo di consegna",
+        "keys": [
+          "CardIssuance.DeliveryAddress.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Delivery address",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Pristatymo adresas:",
+        "keys": [
+          "CardIssuance.Review.DeliveryAddress"
+        ]
+      },
+      {
+        "text": "Pristatymo adresas",
+        "keys": [
+          "CardIssuance.DeliveryAddress.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Delivery address",
+    "locale": "nb-NO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Leveringsadresse:",
+        "keys": [
+          "CardIssuance.Review.DeliveryAddress"
+        ]
+      },
+      {
+        "text": "Leveringsadresse",
+        "keys": [
+          "CardIssuance.DeliveryAddress.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Delivery address",
+    "locale": "pl-PL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Adres dostawy:",
+        "keys": [
+          "CardIssuance.Review.DeliveryAddress"
+        ]
+      },
+      {
+        "text": "Adres dostawy",
+        "keys": [
+          "CardIssuance.DeliveryAddress.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Delivery address",
+    "locale": "sv-SE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Leveransadress:",
+        "keys": [
+          "CardIssuance.Review.DeliveryAddress"
+        ]
+      },
+      {
+        "text": "Leveransadress",
+        "keys": [
+          "CardIssuance.DeliveryAddress.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Do it later",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Κάντε το αργότερα.",
+        "keys": [
+          "ComponentMicroDepositModal.ButtonLater"
+        ]
+      },
+      {
+        "text": "Κάντε το αργότερα",
+        "keys": [
+          "PageSendMoneyFund.ButtonLater"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "e.g. 123",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Např. 123",
+        "keys": [
+          "AdditionalInformationModal.LicenceVersionPlaceholder"
+        ]
+      },
+      {
+        "text": "např. 123",
+        "keys": [
+          "SendMoneyAdditionalDetailsFormFieldParser.LicenceVersionPlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "e.g. 123",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "f.eks 123",
+        "keys": [
+          "AdditionalInformationModal.LicenceVersionPlaceholder"
+        ]
+      },
+      {
+        "text": "f.eks. 123",
+        "keys": [
+          "SendMoneyAdditionalDetailsFormFieldParser.LicenceVersionPlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "eg 12345",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "pvz. 12345",
+        "keys": [
+          "ComponentRecipientAddressModal.USAddressFormat.ZipCodePlaceholder"
+        ]
+      },
+      {
+        "text": "pvz., 12345",
+        "keys": [
+          "PersonalAddress.USAddressFormat.ZipCodePlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Email is required",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "L'adresse e-mail est requise",
+        "keys": [
+          "EditAccountModal.EmailValidationRequired"
+        ]
+      },
+      {
+        "text": "L’adresse e-mail est requise",
+        "keys": [
+          "PageContactForm.EmailValidationRequired"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Enter address 2",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Saisissez l’adresse 2",
+        "keys": [
+          "ComponentKYCRefreshAddress.UKCorporateAddress.AddressLine2Placeholder"
+        ]
+      },
+      {
+        "text": "Saisissez l’adresse 2",
+        "keys": [
+          "ComponentKYCRefreshAddress.EUCorporateAddress.AddressLine2Placeholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Enter address 3",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Saisissez l’adresse 3",
+        "keys": [
+          "ComponentKYCRefreshAddress.UKCorporateAddress.AddressLine3Placeholder"
+        ]
+      },
+      {
+        "text": "Saisissez l’adresse 3",
+        "keys": [
+          "ComponentKYCRefreshAddress.EUCorporateAddress.AddressLine3Placeholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Enter promo code",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Saisir le code promotionnel.",
+        "keys": [
+          "SendMoneyAmount.ReferAFriend.PromoCodeModal.EnterPromoCode"
+        ]
+      },
+      {
+        "text": "Saisir le code promotionnel",
+        "keys": [
+          "SendMoneyAmount.ReferAFriend.PromoCodeModal.Placeholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Enter the 6 digit code we sent to",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Unesite 6-znamenkasti kod koji smo Vam poslali",
+        "keys": [
+          "PageOTP.Description"
+        ]
+      },
+      {
+        "text": "Unesite 6-znamenkasti kod koji smo vam poslali",
+        "keys": [
+          "PageEmailVerification.Description"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Forwarding...",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Weiterleitung ...",
+        "keys": [
+          "PageSendMoneyCreating.VoltRedirectTitle"
+        ]
+      },
+      {
+        "text": "Weiterleitung...",
+        "keys": [
+          "SendMoneyCreating.VoltRedirectTitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Get help",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Obtenir de l'aide",
+        "keys": [
+          "ComponentGetHelpModal.Title"
+        ]
+      },
+      {
+        "text": "Obtenir de l’aide",
+        "keys": [
+          "ComponentPaymentMethod.MenuGetHelp"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Help us validate your company's financialinformation with a bank statement",
+    "locale": "et-EE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Aidake meil kinnitada teie ettevõtte finantsteavet pangakonto väljavõtte abil.",
+        "keys": [
+          "UploadDocumentModal.BankStatementSubtitle"
+        ]
+      },
+      {
+        "text": "Aidake meil kinnitada teie ettevõtte finantsteavet pangakonto väljavõtte abil",
+        "keys": [
+          "UploadDocumentModal.idBankStatement.Subtitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "How it works",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Come funziona",
+        "keys": [
+          "SendMoneyVoltPayToStartPage.HowItWorks"
+        ]
+      },
+      {
+        "text": "Come funziona?",
+        "keys": [
+          "VoltInfoContent.HowItWorksTitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "I agree to BIPS <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Terms and Conditions</span></a>.",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Jeg accepterer BIPS' <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">vilkår og betingelser</span></a>.",
+        "keys": [
+          "ComponentAddressChangeTermsAndConditionsModal.TextIAgreeBritline"
+        ]
+      },
+      {
+        "text": "Jeg accepterer BIPS' <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Vilkår og betingelser</span></a>.",
+        "keys": [
+          "ComponentTermsAndConditionsModal.TextIAgreeBritline"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "I agree to John Lewis Money International Payments <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Terms and Conditions</span></a>.",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Ik ga akkoord met de <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Algemene voorwaarden</span></a> van John Lewis Money International Payments.",
+        "keys": [
+          "ComponentAddressChangeTermsAndConditionsModal.TextIAgreeJLP"
+        ]
+      },
+      {
+        "text": "Ik ga akkoord met de <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Algemene Voorwaarden</span></a> van John Lewis Money International Payments.",
+        "keys": [
+          "ComponentTermsAndConditionsModal.TextIAgreeJLP"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "I agree to John Lewis Money International Payments <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Terms and Conditions</span></a>.",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "J'accepte les <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Conditions générales</span></a> de John Lewis Money International Payments",
+        "keys": [
+          "ComponentAddressChangeTermsAndConditionsModal.TextIAgreeJLP"
+        ]
+      },
+      {
+        "text": "J'accepte les <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Conditions générales</span></a> de John Lewis Money International Payments.",
+        "keys": [
+          "ComponentTermsAndConditionsModal.TextIAgreeJLP"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "I agree to Xe’s <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Terms and Conditions</span></a>.",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Jeg accepterer Xes <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">vilkår og betingelser</span></a>.",
+        "keys": [
+          "ComponentAddressChangeTermsAndConditionsModal.TextIAgree"
+        ]
+      },
+      {
+        "text": "Jeg accepterer Xes <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Vilkår og betingelser</span></a>.",
+        "keys": [
+          "ComponentTermsAndConditionsModal.TextIAgree"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "I agree to Xe’s <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Terms and Conditions</span></a>.",
+    "locale": "sl-SI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Strinjam se s <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">pogoji in določili</span></a> podjetja Xe.",
+        "keys": [
+          "ComponentAddressChangeTermsAndConditionsModal.TextIAgree"
+        ]
+      },
+      {
+        "text": "Strinjam se s <a href=\"[%1$s:termsAndConditionsURL]\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" class=\"link\"><span class=\"link-text\">Pogoji in določili</span></a> podjetja Xe.",
+        "keys": [
+          "ComponentTermsAndConditionsModal.TextIAgree"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "I understand",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Rozumím.",
+        "keys": [
+          "ComponentXeTransferDetails.ButtonUnderstand"
+        ]
+      },
+      {
+        "text": "Rozumím",
+        "keys": [
+          "PageSendMoneyFinished.UnderstandButton"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "ID document",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Pièce d'identité",
+        "keys": [
+          "DocumentInfoModal.TitleModal"
+        ]
+      },
+      {
+        "text": "Pièce d’identité",
+        "keys": [
+          "PageSendMoneyIdDocument.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "ID document",
+    "locale": "sl-SI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "osebni dokument",
+        "keys": [
+          "DocumentInfoModal.TitleModal"
+        ]
+      },
+      {
+        "text": "Osebni dokument",
+        "keys": [
+          "PageSendMoneyIdDocument.Header"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "местоположение",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Местоположение",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "lokacija",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Lokacija",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "lokalita",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Lokalita",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "lokation",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Lokation",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "locatie",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Locatie",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "et-EE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "asukoht",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Asukoht",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "fi-FI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "sijaintiin",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Sijaintiin",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "établissement",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Établissement",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "τοποθεσία",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Τοποθεσία",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "hu-HU",
+    "count": 2,
+    "variants": [
+      {
+        "text": "helyszín",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Helyszín",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "località",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Località",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Location",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "lokalita",
+        "keys": [
+          "ComponentCashPickupLocation.TextLocations"
+        ]
+      },
+      {
+        "text": "Lokalita",
+        "keys": [
+          "ComponentCashPickupLocation.LabelLocation"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "National ID number",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Numéro national d'identité",
+        "keys": [
+          "SendMoneyAdditionalDetailsFormFieldParser.NationalIdNumberLabel"
+        ]
+      },
+      {
+        "text": "Numéro national d’identité",
+        "keys": [
+          "SendMoneyAdditionalDetailsFormFieldParser.NationalIdNumberPlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "No fee - [%1$s:quoteTime]",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Без такса - [%1$s:quoteTime]",
+        "keys": [
+          "ComponentAddPaymentMethodType.NoFeeText"
+        ]
+      },
+      {
+        "text": "Без такса – [%1$s:quoteTime]",
+        "keys": [
+          "ComponentAddPaymentMethodType.NoFeeTextWithTime"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "No fee - [%1$s:quoteTime]",
+    "locale": "fi-FI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Ei maksua – [%1$s:quoteTime]",
+        "keys": [
+          "ComponentAddPaymentMethodType.NoFeeText"
+        ]
+      },
+      {
+        "text": "Ei maksua - [%1$s:quoteTime]",
+        "keys": [
+          "ComponentAddPaymentMethodType.NoFeeTextWithTime"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "No fee - [%1$s:quoteTime]",
+    "locale": "sv-SE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Ingen avgift – [%1$s:quoteTime]",
+        "keys": [
+          "ComponentAddPaymentMethodType.NoFeeText"
+        ]
+      },
+      {
+        "text": "Ingen avgift - [%1$s:quoteTime]",
+        "keys": [
+          "ComponentAddPaymentMethodType.NoFeeTextWithTime"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "On older licences, this is item 5b",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Senesniuose vairuotojo pažymėjimuose tai yra 5b punktas",
+        "keys": [
+          "SendMoneyAdditionalDetailsFormFieldParser.LicenceVersionHelperText"
+        ]
+      },
+      {
+        "text": "Senesniuose vairuotojo pažymėjimuose tai yra 5b punktas.",
+        "keys": [
+          "RegisterPersonalIdentity.licenceVersionHintTextNZ"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Open Banking",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Banca Abierta",
+        "keys": [
+          "PageActivity.PaymentMethodOpenBanking"
+        ]
+      },
+      {
+        "text": "Banca abierta",
+        "keys": [
+          "Forwards.PaymentMethodOption.OpenBanking.Title"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "optional",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Optionnel",
+        "keys": [
+          "ComponentRecipientAddressModal.OptionalText"
+        ]
+      },
+      {
+        "text": "optionnel",
+        "keys": [
+          "PersonalAddress.OptionalText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "optional",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "voliteľné",
+        "keys": [
+          "ComponentRecipientAddressModal.OptionalText"
+        ]
+      },
+      {
+        "text": "Voliteľné",
+        "keys": [
+          "PersonalAddress.OptionalText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "optional",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Opcional",
+        "keys": [
+          "ComponentRecipientAddressModal.OptionalText"
+        ]
+      },
+      {
+        "text": "opcional",
+        "keys": [
+          "PersonalAddress.OptionalText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Over 507,000 locations worldwide",
+    "locale": "hu-HU",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Több mint 507 000 átvételi pont világszerte",
+        "keys": [
+          "ComponentAddRecipientDeliveryTypeModal.ButtonCashPayoutDescription"
+        ]
+      },
+      {
+        "text": "Több mint 507 000 átvételi pont világszerte",
+        "keys": [
+          "ComponentXeTransferDetails.DeliveryMethodOfficePickupSubText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Over 507,000 locations worldwide",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Vairāk nekā 507 000 atrašanās vietu visā pasaulē",
+        "keys": [
+          "ComponentAddRecipientDeliveryTypeModal.ButtonCashPayoutDescription"
+        ]
+      },
+      {
+        "text": "Vairāk nekā 507 000 atrašanās vietu visā pasaulē",
+        "keys": [
+          "ComponentXeTransferDetails.DeliveryMethodOfficePickupSubText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Passport file numbers are 12-15 characters long",
+    "locale": "ro-RO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Numerele dosarelor de pașaport au o lungime de 12-15 caractere",
+        "keys": [
+          "SendMoneyAdditionalDetailsFormFieldParser.PassportFileNumberValidationMessage"
+        ]
+      },
+      {
+        "text": "Numerele dosarelor de pașaport au o lungime de 12-15 caractere.",
+        "keys": [
+          "SendMoneyAdditionalDetailsFormFieldParser.PassportFileNumberValidationMsg"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Passport file numbers are 12-15 characters long",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Evidenčné čísla cestovných pasov majú 12 až 15 znakov",
+        "keys": [
+          "SendMoneyAdditionalDetailsFormFieldParser.PassportFileNumberValidationMessage"
+        ]
+      },
+      {
+        "text": "Evidenčné čísla cestovných pasov majú 12 až 15 znakov",
+        "keys": [
+          "SendMoneyAdditionalDetailsFormFieldParser.PassportFileNumberValidationMsg"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Payments & Balances",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Maksājumi un Atlikumi",
+        "keys": [
+          "ComponentXeBottombar.ButtonBalancesAndPayments"
+        ]
+      },
+      {
+        "text": "Maksājumi un atlikumi",
+        "keys": [
+          "ComponentXeSidebar.ButtonBalancesAndPayments"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Payments & Balances",
+    "locale": "pt-PT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Pagamentos e Saldos",
+        "keys": [
+          "ComponentXeBottombar.ButtonBalancesAndPayments"
+        ]
+      },
+      {
+        "text": "Pagamentos e saldos",
+        "keys": [
+          "ComponentXeSidebar.ButtonBalancesAndPayments"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Phone or Email",
+    "locale": "pt-PT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Telefone ou E-mail",
+        "keys": [
+          "PageForgotPassword.LabelUsername"
+        ]
+      },
+      {
+        "text": "Telefone ou e-mail",
+        "keys": [
+          "PageLogin.LabelUsername"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "PINs don't match. Please try again.",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "PIN-koderne stemmer ikke overens. Prøv igen.",
+        "keys": [
+          "CardActivation.ConfirmPin.MismatchError"
+        ]
+      },
+      {
+        "text": "Pinkoderne stemmer ikke overens. Prøv igen.",
+        "keys": [
+          "CardResetPin.ConfirmPin.MismatchError"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Please do not click 'back’ or close this window",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Моля, не натискайте „назад“ и не затваряйте този прозорец.",
+        "keys": [
+          "PageSendMoneyCreating.VoltRedirectWarning"
+        ]
+      },
+      {
+        "text": "Моля, не натискайте „назад“ и не затваряйте този прозорец",
+        "keys": [
+          "SendMoneyCreating.VoltRedirectWarning"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Please do not click 'back’ or close this window",
+    "locale": "sl-SI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Ne kliknite »nazaj« ali zaprite tega okna.",
+        "keys": [
+          "PageSendMoneyCreating.VoltRedirectWarning"
+        ]
+      },
+      {
+        "text": "Ne kliknite »nazaj« ali zaprite tega okna",
+        "keys": [
+          "SendMoneyCreating.VoltRedirectWarning"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Please enter a valid date",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Εισαγάγετε μια έγκυρη ημερομηνία.",
+        "keys": [
+          "ComponentXeInputDate.InputErrorMessage.expiryType.Default"
+        ]
+      },
+      {
+        "text": "Εισαγάγετε μια έγκυρη ημερομηνία",
+        "keys": [
+          "RegisterPersonalInfo.DateValid"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Please try again later",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Inténtalo de nuevo más tarde",
+        "keys": [
+          "UseMobieWalletsWarning.SomethingWentWrong.Description"
+        ]
+      },
+      {
+        "text": "Inténtalo de nuevo más tarde.",
+        "keys": [
+          "TransactionsPage.Table.Error.Subtitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Promo code added",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Promo kód byl přidán.",
+        "keys": [
+          "SendMoneyAmount.ReferAFriend.PromoAddedModal.Title"
+        ]
+      },
+      {
+        "text": "Promo kód byl přidán",
+        "keys": [
+          "SendMoneyAmount.ReferAFriend.PromoCodeModal.PromoAdded"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Recipient’s name isn’t an exact match",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "De naam van de ontvanger komt niet exact overeen",
+        "keys": [
+          "RecipientVOPWarningInformationModal.NewTitle"
+        ]
+      },
+      {
+        "text": "De naam van de ontvanger komt niet exact overeen.",
+        "keys": [
+          "RecipientVOPWarningInformationModal.MigratedTitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Recipient’s name isn’t an exact match",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "El nombre del destinatario no coincide exactamente",
+        "keys": [
+          "RecipientVOPWarningInformationModal.NewTitle"
+        ]
+      },
+      {
+        "text": "El nombre del destinatario no coincide exactamente.",
+        "keys": [
+          "RecipientVOPWarningInformationModal.MigratedTitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Save your card for future payments",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Αποθηκεύστε την κάρτα σας για μελλοντικές πληρωμές.",
+        "keys": [
+          "AppPaymentCardModal.SaveCardLabel"
+        ]
+      },
+      {
+        "text": "Αποθηκεύστε την κάρτα σας για μελλοντικές πληρωμές",
+        "keys": [
+          "CardIssuance.AddCard.SaveCard"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Search country...",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Zoek een land",
+        "keys": [
+          "PageAnonymousProfile.SearchPlaceholder"
+        ]
+      },
+      {
+        "text": "Zoek een land ...",
+        "keys": [
+          "PageCountryLanguageSetup.CountrySearchPlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Search country...",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Rechercher un pays",
+        "keys": [
+          "PageAnonymousProfile.SearchPlaceholder"
+        ]
+      },
+      {
+        "text": "Rechercher un pays...",
+        "keys": [
+          "PageCountryLanguageSetup.CountrySearchPlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Search country...",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Land suchen",
+        "keys": [
+          "PageAnonymousProfile.SearchPlaceholder"
+        ]
+      },
+      {
+        "text": "Land suchen ...",
+        "keys": [
+          "PageCountryLanguageSetup.CountrySearchPlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Search country...",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Αναζήτηση χώρας",
+        "keys": [
+          "PageAnonymousProfile.SearchPlaceholder"
+        ]
+      },
+      {
+        "text": "Αναζήτηση χώρας...",
+        "keys": [
+          "PageCountryLanguageSetup.CountrySearchPlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Search country...",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Cerca Paese",
+        "keys": [
+          "PageAnonymousProfile.SearchPlaceholder"
+        ]
+      },
+      {
+        "text": "Cerca Paese...",
+        "keys": [
+          "PageCountryLanguageSetup.CountrySearchPlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Search country...",
+    "locale": "pl-PL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Wyszukaj kraj",
+        "keys": [
+          "PageAnonymousProfile.SearchPlaceholder"
+        ]
+      },
+      {
+        "text": "Wyszukaj kraj...",
+        "keys": [
+          "PageCountryLanguageSetup.CountrySearchPlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Search country...",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Buscar país",
+        "keys": [
+          "PageAnonymousProfile.SearchPlaceholder"
+        ]
+      },
+      {
+        "text": "Buscar país...",
+        "keys": [
+          "PageCountryLanguageSetup.CountrySearchPlaceholder"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Search...",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Suchen...",
+        "keys": [
+          "PageActivityNew.SearchPlaceholder"
+        ]
+      },
+      {
+        "text": "Suchen ...",
+        "keys": [
+          "CommonFields.Search"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Search...",
+    "locale": "nb-NO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Søk...",
+        "keys": [
+          "PageActivityNew.SearchPlaceholder"
+        ]
+      },
+      {
+        "text": "Søk ...",
+        "keys": [
+          "CommonFields.Search"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "The reference must be at least 2 characters long, numbers/letters only",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Die Referenz muss mindestens 2 Zeichen lang sein und darf nur Zahlen oder Buchstaben enthalten",
+        "keys": [
+          "QuickTransfer.ReferenceAlphaNumAndMinLengthError"
+        ]
+      },
+      {
+        "text": "Die Referenz muss mindestens 2 Zeichen lang sein und darf nur Zahlen oder Buchstaben enthalten.",
+        "keys": [
+          "QuickTransfer.AlphaNumAndMinLengthError"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "This field must not be empty",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Това поле не трябва да бъде празно.",
+        "keys": [
+          "PaymentReferenceModal.MustNotBeEmpty"
+        ]
+      },
+      {
+        "text": "Това поле не трябва да бъде празно",
+        "keys": [
+          "QuickTransfer.OtherInvalidInputErrorText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Transfer fees",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Overførselsgebyr(er)",
+        "keys": [
+          "ComponentSchedulePaymentSummary.ItemTransferFees"
+        ]
+      },
+      {
+        "text": "Overførselsgebyrer",
+        "keys": [
+          "SummaryCard.TransferFees"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Transfers take 1-3 business days after being sent, depending on the currency, destination, and recipient bank.",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Převody trvají 1-3 pracovní dny od odeslání, a to v závislosti na měně, cílové destinaci a bance příjemce.",
+        "keys": [
+          "ComponentXeTransferDetails.BankTransfersTake"
+        ]
+      },
+      {
+        "text": "Převody trvají 1–3 pracovní dny od odeslání, a to v závislosti na měně, cílové destinaci a bance příjemce.",
+        "keys": [
+          "ComponentXeTransferDetails.TransfersTakeBusinessDays"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Transfers take 1-3 business days after being sent, depending on the currency, destination, and recipient bank.",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Prevody trvajú 1 až 3 pracovné dni po odoslaní v závislosti od meny, destinácie a banky príjemcu.",
+        "keys": [
+          "ComponentXeTransferDetails.BankTransfersTake"
+        ]
+      },
+      {
+        "text": "Prevody trvajú 1 až 3 pracovné dni po odoslaní v závislosti od meny, destinácie a banky príjemcu.",
+        "keys": [
+          "ComponentXeTransferDetails.TransfersTakeBusinessDays"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Type your PIN code again to confirm",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Indtast din PIN-kode igen for at bekræfte",
+        "keys": [
+          "CardActivation.ConfirmPin.Subtitle"
+        ]
+      },
+      {
+        "text": "Indtast din pinkode igen for at bekræfte",
+        "keys": [
+          "CardResetPin.ConfirmPin.Subtitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Typically 3 business days",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Généralement sous 3 jours ouvrables",
+        "keys": [
+          "QuoteLeadTime.typically3businessdays"
+        ]
+      },
+      {
+        "text": "Généralement sous 3 jours ouvrables",
+        "keys": [
+          "Forwards.PaymentMethodOption.DirectDebit.Subtitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Unit or apt",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Buto nr.",
+        "keys": [
+          "ComponentRecipientAddressModal.CAAddressFormat.UnitLabel"
+        ]
+      },
+      {
+        "text": "Buto Nr.",
+        "keys": [
+          "PersonalAddress.CAAddressFormat.UnitLabel"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "View Activity",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Activiteit bekijken",
+        "keys": [
+          "PageSendMoneyFinished.ConvertBalanceViewActivity"
+        ]
+      },
+      {
+        "text": "Activiteit Bekijken",
+        "keys": [
+          "ComponentDirectDebitBalanceFunding.ButtonGoToActivity"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "View Activity",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Voir l’activité",
+        "keys": [
+          "PageSendMoneyFinished.ConvertBalanceViewActivity"
+        ]
+      },
+      {
+        "text": "Voir l'activité",
+        "keys": [
+          "ComponentDirectDebitBalanceFunding.ButtonGoToActivity"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "We are unable to find the page you are looking for",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Δεν μπορούμε να βρούμε τη σελίδα που αναζητάτε.",
+        "keys": [
+          "PageNotFound.Description"
+        ]
+      },
+      {
+        "text": "Δεν μπορούμε να βρούμε τη σελίδα που αναζητάτε",
+        "keys": [
+          "notFoundPage.body"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "We can’t verify your recipient’s details",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "We kunnen de gegevens van uw ontvanger niet verifiëren",
+        "keys": [
+          "RecipientVOPErrorInformationModal.NewTitle"
+        ]
+      },
+      {
+        "text": "We kunnen de gegevens van uw ontvanger niet verifiëren.",
+        "keys": [
+          "RecipientVOPErrorInformationModal.MigratedTitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "We can’t verify your recipient’s details",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Non possiamo verificare i dati del destinatario",
+        "keys": [
+          "RecipientVOPErrorInformationModal.NewTitle"
+        ]
+      },
+      {
+        "text": "Non possiamo verificare i dati del destinatario.",
+        "keys": [
+          "RecipientVOPErrorInformationModal.MigratedTitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "We couldn't create your contract. Please try again or contact support if the issue continues",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Nous n'avons pas pu créer votre contrat. Veuillez réessayer ou contacter le service d'assistance si le problème persiste.",
+        "keys": [
+          "QuoteConfirmation.Error.Message.Generic"
+        ]
+      },
+      {
+        "text": "Nous n'avons pas pu créer votre contrat. Veuillez réessayer ou contacter le service d'assistance si le problème persiste",
+        "keys": [
+          "QuoteConfirmation.Error.Message.Convert"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "We couldn't create your contract. Please try again or contact support if the issue continues",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Wir konnten Ihren Vertrag nicht erstellen. Bitte versuchen Sie es erneut oder wenden Sie sich an den Support, wenn das Problem weiter besteht.",
+        "keys": [
+          "QuoteConfirmation.Error.Message.Generic"
+        ]
+      },
+      {
+        "text": "Wir konnten Ihren Vertrag nicht erstellen. Bitte versuchen Sie es erneut oder wenden Sie sich an den Support, wenn das Problem weiter besteht",
+        "keys": [
+          "QuoteConfirmation.Error.Message.Convert"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "We do not support this phone number type",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Wir unterstützen diesen Telefonnummerntyp nicht",
+        "keys": [
+          "EditPhoneModal.ValidatePhoneNumberNotFound"
+        ]
+      },
+      {
+        "text": "Wir unterstützen diesen Telefonnummern-Typ nicht",
+        "keys": [
+          "twoFactorAuth.changeNumber.nonSupportedType"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "We do not support this phone number type",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Mēs neatbalstām šāda veida tālruņa numuru.",
+        "keys": [
+          "EditPhoneModal.ValidatePhoneNumberNotFound"
+        ]
+      },
+      {
+        "text": "Mēs neatbalstām šāda veida tālruņa numuru",
+        "keys": [
+          "twoFactorAuth.changeNumber.nonSupportedType"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "We do not support this phone number type",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Šio tipo telefono numeris nepalaikomas",
+        "keys": [
+          "EditPhoneModal.ValidatePhoneNumberNotFound"
+        ]
+      },
+      {
+        "text": "Šio tipo telefono numeris nepalaikomas.",
+        "keys": [
+          "twoFactorAuth.changeNumber.nonSupportedType"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "We need an updated ID",
+    "locale": "ro-RO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Este necesar să furnizați un act de identitate actualizat",
+        "keys": [
+          "PageSendMoneyIdUpdate.Description"
+        ]
+      },
+      {
+        "text": "Este necesar să furnizați un act de identitate actualizat.",
+        "keys": [
+          "PageSendMoneyIdUpdate.Title"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "We need some more information from you before you can send money.",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Trebamo još neke informacije od Vas prije nego što možete poslati novac.",
+        "keys": [
+          "SendMoneyAdditionalDetails.WeNeedMoreInformationFromYou"
+        ]
+      },
+      {
+        "text": "Trebamo još neke informacije od vas prije nego što možete poslati novac.",
+        "keys": [
+          "SendMoneyAdditionalDetailsFormFieldParser.NeedMoreInfoText"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Your Card Number ensures that your driver’s licence is up to date. This is an added security measure to prevent identity theft.",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Номерът на вашата карта гарантира, че шофьорската Ви книжка е актуална. Това е допълнителна мярка за сигурност за предотвратяване на кражба на самоличност.",
+        "keys": [
+          "AdditionalInformationModal.CardNumberTooltipText"
+        ]
+      },
+      {
+        "text": "Номерът на Вашата карта гарантира, че шофьорската Ви книжка е актуална. Това е допълнителна мярка за сигурност за предотвратяване на кражба на самоличност.",
+        "keys": [
+          "RegisterPersonalIdentity.licenceCardNumberOptionalTextAU"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Your Card Number ensures that your driver’s licence is up to date. This is an added security measure to prevent identity theft.",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Broj vaše kartice osigurava da je vaša vozačka dozvola ažurna.  Ovo je dodatna sigurnosna mjera za sprječavanje krađe identiteta.",
+        "keys": [
+          "AdditionalInformationModal.CardNumberTooltipText"
+        ]
+      },
+      {
+        "text": "Broj vaše kartice osigurava da je vaša vozačka dozvola ažurna. Ovo je dodatna sigurnosna mjera za sprječavanje krađe identiteta.",
+        "keys": [
+          "RegisterPersonalIdentity.licenceCardNumberOptionalTextAU"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Your Country",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Il tuo paese",
+        "keys": [
+          "PageAnonymousProfile.SheetTitle"
+        ]
+      },
+      {
+        "text": "Il tuo Paese",
+        "keys": [
+          "PageCountryLanguageSetup.CountrySheetTitle"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Your funds are available",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Vos fonds sont disponibles.",
+        "keys": [
+          "TransactionTimelineBalance.FundingBalance.Completed.StepThree.Text"
+        ]
+      },
+      {
+        "text": "Vos fonds sont disponibles",
+        "keys": [
+          "TransactionTimelineBalance.YourFundsAreAvailable"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Your send rate was updated",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Votre taux d'envoi a été mis à jour",
+        "keys": [
+          "ComponentQuickTransferSummary.RateChangeWarningText"
+        ]
+      },
+      {
+        "text": "Votre taux d’envoi a été mis à jour",
+        "keys": [
+          "BaseSummary.RateUpdatedWarning"
+        ]
+      }
+    ]
+  }
+]

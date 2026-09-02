@@ -1,0 +1,2968 @@
+[
+  {
+    "en": "You have [%1$s:formattedTime] to pay",
+    "locale": "de-DE",
+    "count": 3,
+    "variants": [
+      {
+        "text": "Sie haben {{formattedTime}}, um zu bezahlen",
+        "keys": [
+          "SendMoneyOpenBankingBancontact.TimeToPayText"
+        ]
+      },
+      {
+        "text": "Sie müssen [%1$s:formattedTime] bezahlen",
+        "keys": [
+          "SendMoneyOpenBankingBancontact.TimeToPayText1",
+          "SendMoneyOpenBankingBancontact.TimeToPayText2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "You have [%1$s:formattedTime] to pay",
+    "locale": "hu-HU",
+    "count": 3,
+    "variants": [
+      {
+        "text": "{{formattedTime}} áll rendelkezésedre a fizetéshez",
+        "keys": [
+          "SendMoneyOpenBankingBancontact.TimeToPayText"
+        ]
+      },
+      {
+        "text": "[%1$s:formattedTime] áll rendelkezésére a fizetéshez",
+        "keys": [
+          "SendMoneyOpenBankingBancontact.TimeToPayText1",
+          "SendMoneyOpenBankingBancontact.TimeToPayText2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:currency] Баланс",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Баланс",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:currency] Stanje",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "Stanje od {currency}",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Zůstatek [%1$s:currency]",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "Zůstatek {currency}",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:currency] Saldo",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Saldo",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:currency] Saldo",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Balans",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "et-EE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:currency] saldo",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Jääk",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "fi-FI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Saldo: [%1$s:currency]",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Saldo",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Solde [%1$s:currency]",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "Solde de {currency}",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:currency] Guthaben",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Guthaben",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Υπόλοιπο [%1$s:currency]",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Υπόλοιπο",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "hu-HU",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:currency]-egyenleg",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Egyenleg",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Saldo [%1$s:currency]",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "Saldo {currency}",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:currency] Atlikums",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Līdzsvars",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:currency] likutis",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Likutis",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "nb-NO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:currency] saldo",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Balanse",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "pl-PL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Saldo [%1$s:currency]",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Równowaga",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "pt-PT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Saldo [%1$s:currency]",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Equilíbrio",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "ro-RO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Sold [%1$s:currency]",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "Sold {currency}",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Zostatok [%1$s:currency]",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "Zostatok {currency}",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "sl-SI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Stanje [%1$s:currency]",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "Stanje {currency}",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Saldo de [%1$s:currency]",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "Saldo de {currency}",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:currency] Balance",
+    "locale": "sv-SE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "[%1$s:currency]-saldo",
+        "keys": [
+          "ComponentBalancesOverviewItem.BalanceTitle"
+        ]
+      },
+      {
+        "text": "{currency} Saldo",
+        "keys": [
+          "Forwards.PaymentMethodOption.FundsOnBalance.Title2"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Надвишен е лимитът за {deliveryMethod}. Въведете по-малко от {ccySymbol}{maxAmountWarning} {ccyCode}, за да продължите.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Лимитът на [%1$s:deliveryMethod] е надвишен. Въведете по-малко от [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode], за да продължите.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Prekoračeno je ograničenje za {deliveryMethod}. Unesite manje od {ccySymbol}{maxAmountWarning} {ccyCode} radi nastavka.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Prekoračeno ograničenje za [%1$s:deliveryMethod]. Unesite manje od [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] radi nastavka.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Limit {deliveryMethod} byl překročen. Pokud chcete pokračovat, zadejte méně než {ccySymbol}{maxAmountWarning} {ccyCode}.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Limit [%1$s:deliveryMethod] byl překročen. Chcete-li pokračovat, zadejte méně než [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode].",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Grænsen for {deliveryMethod} overskredet. Indtast et mindre beløb end {ccySymbol}{maxAmountWarning} {ccyCode} for at fortsætte.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Grænsen for [%1$s:deliveryMethod] er overskredet. Indtast mindre end [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] for at fortsætte.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Limiet voor {deliveryMethod} overschreden. Voer minder dan {ccySymbol} {maxAmountWarning} {ccyCode} in om door te gaan.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Limiet voor [%1$s:deliveryMethod] overschreden. Voer minder dan [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] in om doorgaan.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "et-EE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{deliveryMethod} limiit ületatud. Jätkamiseks sisestage vähem kui {ccySymbol}{maxAmountWarning} {ccyCode}.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:deliveryMethod] limiit ületatud. Sisesta vähem kui [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] et jätkata.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "fi-FI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{deliveryMethod} raja ylitetty. Jatka syöttämällä alle {ccySymbol}{maxAmountWarning} {ccyCode}.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:deliveryMethod]-raja ylitetty. Jatka syöttämällä alle [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode].",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "La limite de {deliveryMethod} est dépassée. Saisissez un montant inférieur à {maxAmountWarning} {ccySymbol} {ccyCode} pour continuer.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:deliveryMethod] Limite dépassée. Veuillez saisir une valeur inférieure à [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] à suivre.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{deliveryMethod} Limit überschritten. Geben Sie weniger als {ccySymbol}{maxAmountWarning} {ccyCode} ein, um fortzufahren",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:deliveryMethod] Limit überschritten. Geben Sie weniger als [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] ein, um fortzufahren.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Υπέρβαση του ορίου {deliveryMethod}. Εισαγάγετε ποσό μικρότερο από {ccySymbol}{maxAmountWarning} {ccyCode} για να συνεχίσετε.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Υπέρβαση ορίου [%1$s:deliveryMethod]. Εισαγάγετε ποσό μικρότερο από [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] για να συνεχίσετε.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "hu-HU",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{deliveryMethod} limit túllépve. A folytatáshoz írjon be kevesebbet, mint {ccySymbol}{maxAmountWarning} {ccyCode}.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:deliveryMethod] limit túllépve. A folytatáshoz adjon [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] alatti összeget.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Limite di {deliveryMethod} superato. Inserisci meno di {ccySymbol}{maxAmountWarning} {ccyCode} per continuare.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Limite [%1$s:deliveryMethod] superato. Inserire meno di [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] per continuare.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{deliveryMethod} ierobežojums pārsniegts. Lūdzu, ievadiet mazāk nekā {ccySymbol}{maxAmountWarning} {ccyCode}, lai turpinātu.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Ir pārsniegts [%1$s:deliveryMethod] ierobežojums. Lai turpinātu, ievadiet mazāk par [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode].",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{deliveryMethod} limitas viršytas. Norėdami tęsti, įveskite mažiau nei {ccySymbol}{maxAmountWarning} {ccyCode}.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Viršytas [%1$s:deliveryMethod] limitas. Norėdami tęsti, įveskite mažiau nei [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode].",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "nb-NO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{deliveryMethod} sin grense overskredet. Vennligst skriv inn mindre enn {ccySymbol}{maxAmountWarning} {ccyCode} for å fortsette.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:deliveryMethod]-grensen overskredet. Skriv inn mindre enn [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] for å fortsette.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "pl-PL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Przekroczono limit {deliveryMethod}. Wprowadź wartość mniejszą niż {ccySymbol}{maxAmountWarning} {ccyCode}, aby kontynuować.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Przekroczono limit [%1$s:deliveryMethod]. Wprowadź wartość mniejszą niż [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode], aby kontynuować.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "pt-PT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{deliveryMethod} limite excedido. Introduza menos de {ccySymbol}{maxAmountWarning} {ccyCode} para continuar.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:deliveryMethod] limite excedido. Introduza menos de [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] para continuar.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "ro-RO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Limita pentru {deliveryMethod} a fost depășită. Completați mai puțin de {ccySymbol}{maxAmountWarning} {ccyCode} pentru a continua.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Limita pentru [%1$s:deliveryMethod] a fost depășită. Completați mai puțin de [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] pentru a continua.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Prekročili ste limit pre {deliveryMethod}. Na pokračovanie zadajte menej ako {maxAmountWarning} {ccySymbol} {ccyCode}.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Limit pre [%1$s:deliveryMethod] prekročený. Ak chcete pokračovať, zadajte menej ako [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode].",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "sl-SI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Omejitev {deliveryMethod} je presežena. Vnesite manj kot {ccySymbol}{maxAmountWarning} {ccyCode} in nadaljujte.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Omejitev za [%1$s:deliveryMethod] je presežena. Za nadaljevanje vnesite znesek, nižji od [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode].",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Se ha superado el límite de {deliveryMethod}. Introduzca menos de {maxAmountWarning} {ccySymbol} {ccyCode} para continuar.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Se ha superado el límite de [%1$s:deliveryMethod]. Introduzca menos de [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] para continuar.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:deliveryMethod] limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] to continue.",
+    "locale": "sv-SE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Gränsen för {deliveryMethod} har överskridits. Vänligen ange mindre än {ccySymbol}{maxAmountWarning} {ccyCode} för att fortsätta.",
+        "keys": [
+          "QuoteErrors.QUOTE067_Recipient"
+        ]
+      },
+      {
+        "text": "Gränsen för [%1$s:deliveryMethod] har överskridits. Ange mindre än [%1$s:ccySymbol][%1$s:maxAmountWarning] [%1$s:ccyCode] för att fortsätta.",
+        "keys": [
+          "QUOTE067_isFromRecipient"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} ϱèƭƨ",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] получава",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} dobiva",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] dobiva",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} dostane",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "Dostane [%1$s:recipientName]",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} får",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] får",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} krijgt",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] krijgt",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "et-EE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} saab",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] saab",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "fi-FI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} saa",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] saa",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} obtient",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] reçoit",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} bekommt",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] erhält",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} παίρνει",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "Ο/η [%1$s:recipientName] λαμβάνει",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "hu-HU",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} kap",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] ennyit kap:",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} ottiene",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] ottiene",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} iegūst",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] saņem",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} gauna",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] gauna",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "nb-NO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} får",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] får",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "pl-PL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} dostaje",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] otrzymuje",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "pt-PT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} fica",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] recebe",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "ro-RO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} primește",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] obține",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} dostane",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] dostane",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "sl-SI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} dobi",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] dobi",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} obtiene",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] recibe",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "[%1$s:recipientName] gets",
+    "locale": "sv-SE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "{recipientName} får",
+        "keys": [
+          "PageSendMoneyAmount.LabelAmountTo_Recipient"
+        ]
+      },
+      {
+        "text": "[%1$s:recipientName] ger",
+        "keys": [
+          "SendMoneySummary.RecipientGets"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Вие сте надвишили дневния си лимит. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Свържете се с нас</a> ако трябва да изпратите пари днес.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} дневният лимит е превишен, опитайте с по-малко количество или <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">свържете се с нас</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Premašili ste svoj dnevni limit. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Kontaktirajte nas</a> ako trebate poslati novac danas.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} prekoračen dnevni limit, pokušajte s manjom količinom ili <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">kontaktirajte nas</a>.",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Překročili jste svůj denní limit. Potřebujete-li poslat peníze ještě dnes, <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">kontaktujte nás</a>.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} denní limit překročen, zkuste menší množství nebo <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">kontaktujte nás</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Du har overskredet din daglige grænse. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Kontakt os</a>, hvis du har brug for at sende penge i dag.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} den daglige grænse er overskredet, prøv en mindre mængde eller <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">kontakt os</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Je hebt je dagelijkse limiet overschreden. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Neem contact met ons op</a> als je vandaag geld moet overmaken.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} Dagelijkse limiet overschreden, probeer een kleinere hoeveelheid of <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">neem contact met ons op</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "et-EE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Olete ületanud oma päevalimiidi. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Võtke meiega ühendust</a>, kui teil on vaja täna raha saata.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} päevase limiidi ületamise korral proovige väiksemat summat või <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">võtke meiega ühendust</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "fi-FI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Olet ylittänyt päivittäisen rajasi. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Ota meihin yhteyttä</a>, jos sinun täytyy lähettää rahaa tänään.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} päivittäinen raja ylitetty, kokeile pienempää summaa tai <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">ota meihin yhteyttä</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Vous avez dépassé votre limite quotidienne. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contactez-nous</a> si vous avez besoin d'envoyer de l'argent aujourd'hui.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} Limite quotidienne dépassée, essayez une quantité inférieure ou <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">contactez-nous</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Sie haben Ihr Tageslimit überschritten. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Kontaktieren Sie uns</a> Wenn Sie heute Geld senden müssen.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} Tageslimit überschritten, versuchen Sie es mit einer kleineren Menge oder <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Kontaktieren Sie uns</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Έχετε υπερβεί το ημερήσιο όριό σας. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Επικοινωνήστε μαζί μας</a> αν χρειάζεται να στείλετε χρήματα σήμερα.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} υπέρβαση του ημερήσιου ορίου, δοκιμάστε μικρότερη ποσότητα ή <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">επικοινωνήστε μαζί μας</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "hu-HU",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Túllépte a napi limitet. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Lépjen kapcsolatba velünk</a>, ha ma szeretne pénzt küldeni.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} túllépte a napi limitet, próbáljon meg kisebb összeget, vagy <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">kapcsolatfelvétel</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Hai superato il limite giornaliero. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contattaci</a> se hai bisogno di inviare denaro oggi.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} limite giornaliero superato, prova un importo inferiore o <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">contattaci</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Jūs esat pārsniedzis savu dienas limitu. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Sazinieties ar mums</a>, ja jums šodien ir nepieciešams nosūtīt naudu.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} dienas limits ir pārsniegts, mēģiniet mazāku summu vai <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">sazinieties ar mums</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Viršijote dienos limitą. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Susisiekite su mumis</a>, jei reikia siųsti pinigus šiandien.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} viršytas dienos limitas, pabandykite mažesnę sumą arba <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">susisiekite su mumis</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "nb-NO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Du har overskredet den daglige grensen. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Kontakt oss</a> hvis du trenger å sende penger i dag.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} daglig grense overskredet, prøv en mindre mengde eller <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">kontakt oss</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "pl-PL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Dzienny limit został przekroczony. Jeśli potrzebujesz wysłać pieniądze dzisiaj, <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">skontaktuj się z nami</a>.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} przekroczono limit dzienny, spróbuj mniejszej kwoty lub <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Skontaktuj się z nami</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "pt-PT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Excedeu o seu limite diário. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contacte-nos</a> se precisar de enviar dinheiro hoje.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} Limite diário excedido, tente uma quantidade menor ou <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">entre em contato conosco</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "ro-RO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Ați depășit limita zilnică. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contactați-ne</a> dacă trebuie să trimiteți bani astăzi.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} limita zilnică a fost depășită, încercați o cantitate mai mică sau <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">contactați-ne</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Prekročili ste svoj denný limit. Ak potrebujete poslať peniaze ešte dnes, <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">kontaktujte nás</a>.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} prekročený denný limit, skúste menšie množstvo alebo <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">kontaktujte nás</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "sl-SI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Presegli ste svojo dnevno omejitev. Če želite denar poslati še danes, <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">stopite v stik z nami</a>.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} dnevna omejitev je presežena, poskusite z manjšo količino ali <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">kontaktirajte nas</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Has superado tu límite diario. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contáctanos</a> Si necesitas enviar dinero hoy.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} Se excedió el límite diario, pruebe una cantidad menor o <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Contáctanos</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily limit exceeded. Enter less than [%1$s:ccySymbol][%1$s:dailyMaxAmount] [%1$s:trmAccountingCcy] or <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">contact us</a>.",
+    "locale": "sv-SE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Du har överskridit din dagliga gräns. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Kontakta oss</a> om du behöver skicka pengar idag.",
+        "keys": [
+          "QuoteErrors.QUOTE030"
+        ]
+      },
+      {
+        "text": "{ccySymbol}{dailyMaxAmount} {trmAccountingCcy} en daglig gräns har överskridits, prova en mindre mängd eller <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">kontakta oss</a>",
+        "keys": [
+          "QuoteErrors.QUOTE030_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Надвишили сте дневния си лимит. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Свържете се с нас</a>, ако трябва да изпратите пари днес.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Превишен е дневният брой преводи. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Свържете се с нас</a> ако трябва да изпратите пари днес.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Premašili ste svoj dnevni limit. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Obratite nam se</a> ako trebate poslati novac danas.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Prekoračen dnevni broj transfera. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Kontaktirajte nas</a> ako trebate poslati novac danas.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Překročili jste svůj denní limit. Potřebujete-li poslat peníze ještě dnes, <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">kontaktujte nás</a>.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Denní počet převodů byl překročen. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Kontaktujte nás</a> pokud potřebujete poslat peníze dnes.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Du har overskredet din daglige grænse. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Kontakt os</a>, hvis du har brug for at sende penge i dag.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Dagligt antal overførsler overskredet. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Kontakt os</a> hvis du skal sende penge i dag.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Je hebt je dagelijkse limiet overschreden. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Neem contact met ons op</a> als je vandaag geld moet overmaken.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Het dagelijkse aantal transacties is overschreden. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Neem contact met ons op</a> als je vandaag geld moet overmaken.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "et-EE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Te olete ületanud oma päevase limiidi. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Võtke meiega ühendust</a>, kui teil on vaja täna raha saata.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Päevane ülekannete arv on ületatud. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Võtke meiega ühendust</a> kui teil on vaja täna raha saata.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "fi-FI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Olet ylittänyt päivittäisen rajasi. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Ota meihin yhteyttä</a>, jos sinun täytyy lähettää rahaa tänään.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Päivittäisten siirtojen määrä ylitetty. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Ota yhteyttä</a> jos tänään pitää lähettää rahaa.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Vous avez dépassé votre limite quotidienne. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contactez-nous</a> si vous avez besoin d'envoyer de l'argent aujourd'hui.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Nombre de transferts quotidiens dépassé. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Contactez-nous</a> si vous devez envoyer de l'argent aujourd'hui.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Sie haben Ihr Tageslimit überschritten. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Kontaktieren Sie uns</a> Wenn Sie heute Geld senden müssen.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Die tägliche Transferzahl wurde überschritten. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Kontaktieren Sie uns</a> Wenn Sie heute Geld senden müssen.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Έχετε υπερβεί το ημερήσιο όριό σας. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Επικοινωνήστε μαζί μας</a> αν χρειάζεται να στείλετε χρήματα σήμερα.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Υπέρβαση ημερήσιου αριθμού μεταφορών. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Επικοινωνήστε μαζί μας</a> αν χρειαστεί να στείλετε χρήματα σήμερα.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "hu-HU",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Túllépte a napi limitet. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Lépjen kapcsolatba velünk</a>, ha ma szeretne pénzt küldeni.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "A napi átutalások száma túllépve. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Kapcsolat</a> ha ma pénzt kell küldened.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Hai superato il limite giornaliero. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contattaci</a> se hai bisogno di inviare denaro oggi.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Numero giornaliero di trasferimenti superato. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Contattaci</a> se hai bisogno di inviare denaro oggi.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Jūs esat pārsniedzis savu dienas ierobežojumu. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Sazinieties ar mums</a>, ja jums šodien ir nepieciešams nosūtīt naudu.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Dienas pārskaitījumu skaits ir pārsniegts. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Sazinieties ar mums</a> ja jums šodien ir jānosūta nauda.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Viršijote dienos limitą. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Susisiekite su mumis</a>, jei reikia siųsti pinigus šiandien.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Viršytas dienos pervedimų skaičius. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Susisiekite su mumis</a> jei šiandien reikia siųsti pinigus.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "nb-NO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Du har overskredet den daglige grensen. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Kontakt oss</a> hvis du trenger å sende penger i dag.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Daglig antall overføringer overskredet. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Kontakt oss</a> hvis du trenger å sende penger i dag.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "pl-PL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Dzienny limit został przekroczony. Jeśli potrzebujesz wysłać pieniądze dzisiaj, <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">skontaktuj się z nami</a>.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Przekroczono dzienną liczbę przelewów. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Skontaktuj się z nami</a> jeśli musisz wysłać pieniądze dzisiaj.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "pt-PT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Excedeu o seu limite diário. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contacte-nos</a> se precisar de enviar dinheiro hoje.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "O número diário de transferências foi excedido. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Contate-nos</a> Se você precisar enviar dinheiro hoje.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "ro-RO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Ați depășit limita zilnică. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contactați-ne</a> dacă trebuie să trimiteți bani astăzi.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Numărul zilnic de transferuri a fost depășit. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Contactaţi-ne</a> dacă trebuie să trimiteți bani astăzi.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Prekročili ste svoj denný limit. Ak potrebujete poslať peniaze ešte dnes, <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">kontaktujte nás</a>.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Denný počet prevodov bol prekročený. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Kontaktujte nás</a> ak potrebujete poslať peniaze dnes.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "sl-SI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Presegli ste svojo dnevno omejitev. Če želite denar poslati še danes, <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">stopite v stik z nami</a>.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Preseženo dnevno število prenosov. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Kontaktirajte nas</a> če morate danes poslati denar.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Has superado tu límite diario. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contáctanos</a> Si necesitas enviar dinero hoy.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Número diario de transferencias excedido. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Contáctanos</a> Si necesitas enviar dinero hoy.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Daily number of transfers exceeded. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Contact us</a> if you need to send money today.",
+    "locale": "sv-SE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Du har överskridit din dagliga gräns. <a class=\"contact-link\" href=\"[%1$s:HelpCenterLink]\" target=\"_blank\">Kontakta oss</a> om du behöver skicka pengar idag.",
+        "keys": [
+          "QuoteErrors.QUOTE031"
+        ]
+      },
+      {
+        "text": "Dagligt antal överföringar överskridits. <a class=\"contact-link\" href=\"{HelpCenterLink}\" target=\"_blank\">Kontakta oss</a> om du behöver skicka pengar idag.",
+        "keys": [
+          "QuoteErrors.QUOTE031_new"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Вземане от [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Вземане в {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Preuzimanje na adresi [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Preuzimanje u {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Vyzvednutí na adrese [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Vyzvednutí v {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Afhentning på [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Afhentning ved {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Afhalen op [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Ophalen om {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "et-EE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Kättesaamine aadressil [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Pealevõtmine {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "fi-FI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Nouto osoitteesta [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Nouto osoitteesta {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Retrait à [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Prise en charge à {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Abholung bei [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Abholung bei {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Παραλαβή από [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Παραλαβή από {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "hu-HU",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Átvétel itt: [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Átvétel itt: {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Ritiro presso [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Ritiro alle {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Saņemšana adresē [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Savākšana pie {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Atsiėmimas adresu [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Atsiėmimas {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "nb-NO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Henting på [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Henting på {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "pl-PL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Odbiór pod adresem [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Odbiór w {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "pt-PT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Levantamento em [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Recolha em {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "ro-RO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Ridicat la [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Ridicare la {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Vyzdvihnutie na adrese [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Vyzdvihnutie o {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "sl-SI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Prevzem na naslovu [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Prevzem na {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Recogido en [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Recogida a {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Pickup at [%1$s:address]",
+    "locale": "sv-SE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Upphämtning på [%1$s:address]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.CashPickupDetails"
+        ]
+      },
+      {
+        "text": "Upphämtning vid {address}",
+        "keys": [
+          "Recipient.SendMoney.CashPickupDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "bg-BG",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Портфейл, завършващ на [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Край на портфейла {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "hr-HR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Novčanik koji završava na [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Novčanik završava na {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "cs-CZ",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Peněženka končící na [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Končící číslo peněženky: {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "da-DK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Tegnebog, der slutter på [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Tegnebogsafslutning {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "nl-NL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Wallet eindigend op [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Portemonnee eindigt {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "et-EE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Rahakoti lõpp [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Rahakoti lõpp {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "fi-FI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Lompakko, jonka loppuosa on [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Lompakon päättymispäivä {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "fr-FR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Portefeuille se terminant par [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Fin du portefeuille {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "de-DE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Wallet endet auf [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Wallet endet mit {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "el-GR",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Πορτοφόλι που τελειώνει σε [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Πορτοφόλι που λήγει {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "hu-HU",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Tárcaszám vége: [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Pénztárca vége: {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "it-IT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Portafoglio che termina con [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Fine del portafoglio {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "lv-LV",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Maks beidzas ar [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Maku beigas {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "lt-LT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Piniginė, kurios numerio pabaiga [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Piniginės pabaiga {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "nb-NO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Lommebok slutter [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Slutt på lommeboken {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "pl-PL",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Portfel, którego numer kończy się na [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Zakończenie portfela {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "pt-PT",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Carteira terminada em [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Fim da carteira {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "ro-RO",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Portofelul terminat în [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Sfârșitul portofelului {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "sk-SK",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Peňaženka končiaca sa na číslo [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Peňaženka končí s {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "sl-SI",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Denarnica s končnico [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Denarnica se konča z {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "es-ES",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Monedero que termina en [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Fin de cartera {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  },
+  {
+    "en": "Wallet ending [%1$s:bankAccountNumber]",
+    "locale": "sv-SE",
+    "count": 2,
+    "variants": [
+      {
+        "text": "Plånbok som slutar på [%1$s:bankAccountNumber]",
+        "keys": [
+          "Recipient.RecipientsCompactCard.MobileWalletDetails"
+        ]
+      },
+      {
+        "text": "Plånboksslut {bankAccountNumber}",
+        "keys": [
+          "Recipient.SendMoney.MobileWalletDetails"
+        ]
+      }
+    ]
+  }
+]
