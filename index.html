@@ -8,37 +8,46 @@
 </head>
 <body>
 
-<header class="topbar">
-  <div class="topbar-inner">
-    <div class="brand">
-      <span class="brand-mark">GG</span>
-      <div>
-        <h1>Galileo Glossary Hub</h1>
-        <p class="subtitle">Terminology reference and consistency findings for Galileo localisation, 22 languages</p>
-      </div>
+<div class="app-shell">
+
+<aside class="sidebar">
+  <div class="sb-title">Glossary Hub</div>
+  <div class="sb-subtitle">Galileo localisation &middot; 22 languages</div>
+
+  <nav class="sb-nav" id="tabs">
+    <button class="tab-btn active" data-tab="glossary"><span class="nav-dot"></span>Glossary</button>
+    <button class="tab-btn" data-tab="search"><span class="nav-dot"></span>Search &amp; browse</button>
+    <button class="tab-btn" data-tab="findings"><span class="nav-dot"></span>Findings</button>
+    <button class="tab-btn" data-tab="about"><span class="nav-dot"></span>About</button>
+  </nav>
+
+  <div class="sb-footer">
+    <div class="sb-legend">
+      <div class="leg"><div class="leg-dot" style="background:var(--mint)"></div>Decided</div>
+      <div class="leg"><div class="leg-dot" style="background:var(--gap-text)"></div>Proposed</div>
+      <div class="leg"><div class="leg-dot" style="background:var(--high)"></div>Bug</div>
     </div>
+    <span class="sb-updated">Updated 2 Sep 2026</span>
   </div>
-</header>
+</aside>
 
-<nav class="tabs" id="tabs">
-  <button class="tab-btn active" data-tab="glossary">Glossary</button>
-  <button class="tab-btn" data-tab="search">Search &amp; browse</button>
-  <button class="tab-btn" data-tab="findings">Findings</button>
-  <button class="tab-btn" data-tab="about">About</button>
-</nav>
-
+<div class="main-content">
 <main>
 
   <!-- GLOSSARY TAB -->
   <section id="tab-glossary" class="tab-panel active">
+    <div class="page-title">Glossary <span class="page-note">One canonical translation per term, per locale</span></div>
     <p class="finding-note">
-      The project's terminology reference: one canonical translation per term, per locale. "Decided" terms
-      have been reviewed and have a documented reason for the choice. "Proposed" terms are reused often
-      enough across the app that they need one canonical form too, but nobody has decided it yet - each
-      shows the variant currently used most, as a starting point, next to every variant actually in use.
+      "Decided" terms have been reviewed and have a documented reason for the choice. "Proposed" terms are
+      reused often enough across the app that they need one canonical form too, but nobody has decided it
+      yet - each shows the variant currently used most, as a starting point, next to every variant actually
+      in use.
     </p>
     <div class="glossary-controls">
-      <input id="glossaryFilter" type="text" placeholder="Filter glossary terms...">
+      <div class="search-wrap">
+        <span class="search-icon">&#9906;</span>
+        <input id="glossaryFilter" class="search-input" type="text" placeholder="Filter glossary terms...">
+      </div>
     </div>
 
     <h2>Decided terms <span class="badge badge-decided" id="decidedCount"></span></h2>
@@ -55,8 +64,12 @@
 
   <!-- SEARCH / BROWSE TAB -->
   <section id="tab-search" class="tab-panel">
+    <div class="page-title">Search &amp; browse <span class="page-note">Every English string used in Galileo, across all 22 locales</span></div>
     <div class="search-bar">
-      <input id="searchInput" type="text" placeholder="Search English text, e.g. &quot;Continue&quot;, &quot;send money&quot;, &quot;balance&quot;..." autocomplete="off">
+      <div class="search-wrap search-wrap-wide">
+        <span class="search-icon">&#9906;</span>
+        <input id="searchInput" class="search-input" type="text" placeholder="Search English text, e.g. &quot;Continue&quot;, &quot;send money&quot;, &quot;balance&quot;..." autocomplete="off">
+      </div>
       <label class="filter-toggle">
         <input type="checkbox" id="inconsistentOnly">
         Inconsistent only
@@ -71,6 +84,7 @@
 
   <!-- FINDINGS TAB -->
   <section id="tab-findings" class="tab-panel">
+    <div class="page-title">Findings <span class="page-note">Placeholder bugs and one-off inconsistencies</span></div>
     <div class="findings-summary" id="findingsSummary"></div>
 
     <h2>1. Placeholder syntax mismatches <span class="badge badge-high">high priority</span></h2>
@@ -103,6 +117,7 @@
 
   <!-- ABOUT TAB -->
   <section id="tab-about" class="tab-panel">
+    <div class="page-title">About <span class="page-note">Methodology and scope</span></div>
     <h2>Methodology</h2>
     <p>
       Built from a full manual export of the Galileo Lokalise project (en-GB plus all 22 target
@@ -130,6 +145,9 @@
   </section>
 
 </main>
+</div>
+
+</div>
 
 <div id="detailOverlay" class="overlay" hidden>
   <div class="overlay-panel">
@@ -137,10 +155,6 @@
     <div id="detailContent"></div>
   </div>
 </div>
-
-<footer>
-  <p>Galileo Glossary Hub &middot; built from the Galileo Lokalise export &middot; last updated 2 September 2026</p>
-</footer>
 
 <script src="app.js"></script>
 </body>
