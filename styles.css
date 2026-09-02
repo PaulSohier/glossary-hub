@@ -295,6 +295,18 @@ td code, .key-tag {
   display: inline-block;
   margin: 1px 2px 1px 0;
 }
+a.key-tag.key-tag-link {
+  background: var(--mint-bg);
+  color: var(--mint-text);
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: border-color .12s;
+}
+a.key-tag.key-tag-link::after { content: ' \2197'; }
+a.key-tag.key-tag-link:hover { border-color: var(--mint-dim); }
+.key-tag-wrap { display: inline; }
+.detail-keys.key-tag-wrap { display: block; }
 
 /* ---------- glossary term cards ---------- */
 .term-card {

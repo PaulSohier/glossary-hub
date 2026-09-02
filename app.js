@@ -4,6 +4,7 @@
   var DATA = 'data/';
   var PAGE_SIZE = 50;
   var SHARD_SIZE = 300;
+  var LOKALISE_BASE = 'https://app.lokalise.com/project/34481794639b9fc4252103.22443160/?k=';
 
   var searchIndex = [];
   var shardCache = {};
@@ -12,6 +13,7 @@
   var stats = null;
   var decidedData = [];
   var proposedData = [];
+  var keymap = {};
 
   var el = {
     searchInput: document.getElementById('searchInput'),
@@ -51,6 +53,15 @@
   function statCard(num, label) {
     return '<div class="stat-card"><div class="stat-num">' + num + '</div><div class="stat-label">' + label + '</div></div>';
   }
+  function keyTag(path) {
+    var id = keymap[path];
+    if (id) {
+      return '<a class="key-tag key-tag-link" href="' + LOKALISE_BASE + id + '" target="_blank" rel="noopener" title="Open in Lokalise">' +
+        escapeHtml(path) + '</a>';
+    }
+    return '<span class="key-tag">' + escapeHtml(path) + '</span>';
+  }
+  function keyTags(paths) { return (paths || []).map(keyTag).join(''); }
 
   // ---------- tabs ----------
   document.getElementById('tabs').addEventListener('click', function (e) {
@@ -77,6 +88,10 @@
   fetch(DATA + 'stats.json').then(function (r) { return r.json(); }).then(function (data) {
     stats = data;
     renderAboutStats();
+  });
+
+  fetch(DATA + 'keymap.json').then(function (r) { return r.json(); }).then(function (data) {
+    keymap = data;
   });
 
   Promise.all([
@@ -115,9 +130,11 @@
         var variants = row.variantsByLocale[loc];
         var rec = row.recommended[loc];
         return '<div class="locale-row"><span class="locale-code">' + loc + '</span><span>' +
-          variants.map(function (t) {
-            return '<span class="variant-text' + (t === rec ? ' variant-recommended' : '') + '">' +
-              (t === rec ? '★ ' : '') + escapeHtml(t) + '</span>';
+          variants.map(function (v) {
+            var isRec = v.text === rec;
+            return '<span class="variant-text' + (isRec ? ' variant-recommended' : '') + '">' +
+              (isRec ? '★ ' : '') + escapeHtml(v.text) +
+              ' <span class="key-tag-wrap">' + keyTags(v.keys) + '</span></span>';
           }).join('') +
           '</span></div>';
       }).join('');
@@ -219,7 +236,7 @@
       } else {
         body = variants.map(function (v) {
           return '<span class="variant-text">' + escapeHtml(v.text) +
-            (variants.length > 1 ? ' <span class="key-tag">' + v.keys.length + ' key' + (v.keys.length > 1 ? 's' : '') + '</span>' : '') +
+            (variants.length > 1 ? ' <span class="key-tag-wrap">' + keyTags(v.keys) + '</span>' : '') +
             '</span>';
         }).join('');
       }
@@ -233,7 +250,7 @@
       '<p class="detail-meta">Used at ' + entry.count + ' key' + (entry.count > 1 ? 's' : '') +
       (entry.inconsistentLocales.length ? ', inconsistent in ' + entry.inconsistentLocales.length + ' locale' + (entry.inconsistentLocales.length > 1 ? 's' : '') : ', consistent across all locales') +
       '</p>' +
-      (entry.count > 1 ? '<p class="detail-keys key-tag-wrap">' + entry.keys.map(function (k) { return '<span class="key-tag">' + escapeHtml(k) + '</span>'; }).join('') + '</p>' : '') +
+      (entry.count > 1 ? '<p class="detail-keys key-tag-wrap">' + keyTags(entry.keys) + '</p>' : '') +
       '<div class="detail-locales">' + rows + '</div>';
     el.detailContent.querySelector('.detail-en').textContent = entry.en;
 
@@ -280,8 +297,8 @@
       html += '<tr>' +
         '<td>' + escapeHtml(row.en) + '</td>' +
         '<td>' + row.locales.length + '</td>' +
-        '<td>' + (bracket ? bracket.keys.map(function (k) { return '<span class="key-tag">' + escapeHtml(k) + '</span>'; }).join('') : '') + '</td>' +
-        '<td>' + (curly ? curly.keys.map(function (k) { return '<span class="key-tag">' + escapeHtml(k) + '</span>'; }).join('') : '') + '</td>' +
+        '<td>' + (bracket ? keyTags(bracket.keys) : '') + '</td>' +
+        '<td>' + (curly ? keyTags(curly.keys) : '') + '</td>' +
         '</tr>';
     });
     html += '</tbody></table>';
