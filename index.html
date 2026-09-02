@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Galileo Glossary Hub</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark">GG</span>
+      <div>
+        <h1>Galileo Glossary Hub</h1>
+        <p class="subtitle">Terminology reference and consistency findings for Galileo localisation, 22 languages</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab-btn active" data-tab="glossary">Glossary</button>
+  <button class="tab-btn" data-tab="search">Search &amp; browse</button>
+  <button class="tab-btn" data-tab="findings">Findings</button>
+  <button class="tab-btn" data-tab="about">About</button>
+</nav>
+
+<main>
+
+  <!-- GLOSSARY TAB -->
+  <section id="tab-glossary" class="tab-panel active">
+    <p class="finding-note">
+      The project's terminology reference: one canonical translation per term, per locale. "Decided" terms
+      have been reviewed and have a documented reason for the choice. "Proposed" terms are reused often
+      enough across the app that they need one canonical form too, but nobody has decided it yet - each
+      shows the variant currently used most, as a starting point, next to every variant actually in use.
+    </p>
+    <div class="glossary-controls">
+      <input id="glossaryFilter" type="text" placeholder="Filter glossary terms...">
+    </div>
+
+    <h2>Decided terms <span class="badge badge-decided" id="decidedCount"></span></h2>
+    <div id="decidedList"></div>
+
+    <h2>Proposed terms <span class="badge badge-gap">needs a decision</span></h2>
+    <p class="finding-note">
+      Reused at many keys across the app; most or all locales currently translate it more than one way.
+      The starred variant is the one already used at the most keys. Confirm it (or pick a different one) and
+      it becomes a decided term.
+    </p>
+    <div id="proposedList"></div>
+  </section>
+
+  <!-- SEARCH / BROWSE TAB -->
+  <section id="tab-search" class="tab-panel">
+    <div class="search-bar">
+      <input id="searchInput" type="text" placeholder="Search English text, e.g. &quot;Continue&quot;, &quot;send money&quot;, &quot;balance&quot;..." autocomplete="off">
+      <label class="filter-toggle">
+        <input type="checkbox" id="inconsistentOnly">
+        Inconsistent only
+      </label>
+    </div>
+    <p id="resultCount" class="result-count"></p>
+    <ul id="resultsList" class="results-list"></ul>
+    <div id="loadMoreWrap" class="load-more-wrap" hidden>
+      <button id="loadMoreBtn" class="btn-secondary">Show more results</button>
+    </div>
+  </section>
+
+  <!-- FINDINGS TAB -->
+  <section id="tab-findings" class="tab-panel">
+    <div class="findings-summary" id="findingsSummary"></div>
+
+    <h2>1. Placeholder syntax mismatches <span class="badge badge-high">high priority</span></h2>
+    <p class="finding-note">
+      Same English text, two different keys, and the keys use different placeholder syntax
+      (<code>[%1$s:variable]</code> vs plain <code>{variable}</code>) for what should be the same variable.
+      This repeats across most locales because it traces back to one duplicated source key, not many
+      separate translator mistakes. If the app does not render <code>{variable}</code> as a placeholder,
+      every locale using that form will show the literal text to users.
+    </p>
+    <div id="placeholderTable"></div>
+
+    <h2>2. Same English label, different translation depending on where it appears <span class="badge badge-gap">termbase gap</span></h2>
+    <p class="finding-note">
+      These English strings are reused at many keys project-wide, and most locales translated them
+      differently in different places. This is not really a translation error, it is the project never
+      settling on one canonical form. Moved to its own place: see the <button class="link-btn" id="goToGlossaryBtn">Glossary tab</button>,
+      "Proposed terms" section.
+    </p>
+
+    <h2>3. Long tail <span class="badge badge-low">lower priority</span></h2>
+    <p class="finding-note">
+      Everything else: English strings inconsistent in only one or a few locales. Still searchable in
+      the Search &amp; browse tab, not repeated here as a list because most of these need a case-by-case look
+      rather than a single termbase decision.
+      <button id="loadLongTailBtn" class="btn-secondary btn-inline">Load long tail list (2,831 rows)</button>
+    </p>
+    <div id="longTailList"></div>
+  </section>
+
+  <!-- ABOUT TAB -->
+  <section id="tab-about" class="tab-panel">
+    <h2>Methodology</h2>
+    <p>
+      Built from a full manual export of the Galileo Lokalise project (en-GB plus all 22 target
+      locales), taken 2 September 2026. Every English source string used at more than one key was
+      compared across all the keys that share it, per locale. A locale is flagged as inconsistent for
+      that string when it used more than one distinct, non-empty translation across those keys. This is
+      an exact-match, first-pass check: word-for-word identical strings only, no fuzzy matching or
+      machine judgement of meaning.
+    </p>
+    <p>
+      Flagged instances were then split into three groups: placeholder syntax mismatches (a variable
+      token differs between variants, a functional risk), substantive wording differences (real
+      difference in the words used), and trivial differences (identical once punctuation, case and
+      spacing are ignored). The findings tab leads with placeholder mismatches and the group of terms
+      inconsistent in most locales at once, since those are the highest-value fixes.
+    </p>
+    <h2>Scope and limits</h2>
+    <p>
+      This is exact-match only. It will not catch a string that means the same thing but is phrased
+      differently in the English source itself, and it will not catch translations that are wrong but
+      internally consistent. Coverage is the 22 Galileo target locales plus en-GB as the source.
+    </p>
+    <h2>Data</h2>
+    <p id="aboutStats"></p>
+  </section>
+
+</main>
+
+<div id="detailOverlay" class="overlay" hidden>
+  <div class="overlay-panel">
+    <button id="detailClose" class="overlay-close" aria-label="Close">&times;</button>
+    <div id="detailContent"></div>
+  </div>
+</div>
+
+<footer>
+  <p>Galileo Glossary Hub &middot; built from the Galileo Lokalise export &middot; last updated 2 September 2026</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
